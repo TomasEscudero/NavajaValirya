@@ -1,0 +1,13 @@
+
+
+03/03/2017 13:05:50 :
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DevTracker.DevTrackerToolWinControl.DocumentEvents_DocumentClosing(Document document) en C:\Users\Kurt G. Nielsen\Downloads\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:línea 389
+
+03/03/2017 13:05:50 :
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DevTracker.DevTrackerToolWinControl.DocumentEvents_DocumentClosing(Document document) en C:\Users\Kurt G. Nielsen\Downloads\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:línea 389
+
+03/03/2017 13:05:50 :
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en DevTracker.DevTrackerToolWinControl.DocumentEvents_DocumentClosing(Document document) en C:\Users\Kurt G. Nielsen\Downloads\DevTracker\DevTracker\DevTrackerToolWinDteEvents.cs:línea 389
