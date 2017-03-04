@@ -16,5 +16,12 @@ namespace NavajaValirya
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CambioDivisa.formCambioDivisa oCambioDivisa = new CambioDivisa.formCambioDivisa();
+            oCambioDivisa.ShowDialog();
+            
+        }
     }
 }
