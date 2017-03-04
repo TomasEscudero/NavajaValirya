@@ -4,6 +4,55 @@
         <name>NavajaValirya</name>
     </assembly>
     <members>
+        <member name="T:NavajaValirya.CambioDivisa.formCambioDivisa">
+            <summary>
+            Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.#ctor">
+            <summary>
+            Formulario CambioDivisa
+            </summary>
+        </member>
+        <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.kVALOR">
+            <summary>
+            Es la constante para realizar el cambio entre las divisas.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambioEuros(System.Double)">
+            <summary>
+            Función cambioEuros.
+            <para>Realiza el cambio de Euros a Pesetas.</para>
+            </summary>
+            <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
+            <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
+            <value>El dinero cambiado a pesetas.</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambioPesetas(System.Double)">
+            <summary>
+            Función cambioPesetas.
+            <para>Realiza el cambio de Pesetas a Euros.</para>
+            </summary>
+            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
+            <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
+            <value>El dinero cambiado a euros.</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
+            </summary>
+            <param name="sender">Lanza el evento el botón button_1</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioPesetas.
+            </summary>
+            <param name="sender">Lanza el evento el botón button_1</param>
+            <param name="e">Sin uso</param>
+        </member>
         <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.components">
             <summary>
             Variable del diseñador necesaria.
@@ -20,6 +69,23 @@
             Método necesario para admitir el Diseñador. No se puede modificar
             el contenido de este método con el editor de código.
             </summary>
+        </member>
+        <member name="T:NavajaValirya.formPrincipal">
+            <summary>
+            Clase formulario que es el formulario principal de la aplicación NavajaValiria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.#ctor">
+            <summary>
+            Formulario principal de la aplicación NavajaValiria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 1
+            </summary>
+            <param name="sender">Lanza el evento del botón button_1</param>
+            <param name="e">Sin uso</param>
         </member>
         <member name="F:NavajaValirya.formPrincipal.components">
             <summary>

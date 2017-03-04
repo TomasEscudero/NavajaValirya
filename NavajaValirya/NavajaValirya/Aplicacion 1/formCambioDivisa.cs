@@ -8,51 +8,95 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Namespace de la aplicación1 que corresponde a la aplicación CambioDivisa
+/// <para>Programa que realiza el cambio entre dos divisas, de Euros a Pesetas y viceversa.</para>
+/// </summary>
 namespace NavajaValirya.CambioDivisa
 {
+    /// <summary>
+    /// Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa
+    /// </summary>
     public partial class formCambioDivisa : Form
     {
+        /// <summary>
+        /// Formulario CambioDivisa
+        /// </summary>
         public formCambioDivisa()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Es la constante para realizar el cambio entre las divisas.
+        /// </summary>
         const double kVALOR = 166.386;
-        double cambioeuros(double numero)
+
+        /// <summary>
+        /// Función cambioEuros.
+        /// <para>Realiza el cambio de Euros a Pesetas.</para>
+        /// </summary>
+        /// <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
+        /// <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
+        /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
+        /// <value>El dinero cambiado a pesetas.</value>
+        double cambioEuros(double cantidadEuros)
         {
-            double res;
-            res = numero / kVALOR;
-            return res;
+            double resultadoCambio;
+
+            resultadoCambio = cantidadEuros / kVALOR;
+
+            return resultadoCambio;
         }
 
-        double cambiopesetas(double numero)
+        /// <summary>
+        /// Función cambioPesetas.
+        /// <para>Realiza el cambio de Pesetas a Euros.</para>
+        /// </summary>
+        /// <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
+        /// <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
+        /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
+        /// <value>El dinero cambiado a euros.</value>
+        double cambioPesetas(double cantidadPesetas)
         {
-            double res;
-            res = numero * kVALOR;
-            return res;
+            double resultadoCambio;
+
+            resultadoCambio = cantidadPesetas * kVALOR;
+
+            return resultadoCambio;
         }
+
+        /// <summary>
+        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
+        /// </summary>
+        /// <param name="sender">Lanza el evento el botón button_1</param>
+        /// <param name="e">Sin uso</param>
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            double numero, resultado;
+            double cantidadPesetas, resultadoEuros;
 
-            numero = double.Parse(TNumero.Text);
+            cantidadPesetas = double.Parse(TCantidad.Text);
 
-            resultado = cambioeuros(numero);
+            resultadoEuros = cambioEuros(cantidadPesetas);
 
-            MessageBox.Show("El cambio son: " + resultado + "€.");
-
-
+            MessageBox.Show("El cambio son: " + resultadoEuros + "€.");            
         }
 
+        /// <summary>
+        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioPesetas.
+        /// </summary>
+        /// <param name="sender">Lanza el evento el botón button_1</param>
+        /// <param name="e">Sin uso</param>
         private void button2_Click(object sender, EventArgs e)
         {
-            double numero, resultado;
+            double cantidadEuros, resultadoPesetas;
 
-            numero = double.Parse(TNumero.Text);
+            cantidadEuros = double.Parse(TCantidad.Text);
 
-            resultado = cambiopesetas(numero);
+            resultadoPesetas = cambioPesetas(cantidadEuros);
 
-            MessageBox.Show("El cambio son: " + resultado + "ptas.");
+            MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
         }
     }
 }
