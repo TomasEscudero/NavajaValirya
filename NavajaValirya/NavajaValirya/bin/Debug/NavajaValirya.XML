@@ -50,7 +50,7 @@
             <summary>
             Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioPesetas.
             </summary>
-            <param name="sender">Lanza el evento el botón button_1</param>
+            <param name="sender">Lanza el evento del botón BCambioEnPesetas</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.components">
@@ -114,6 +114,33 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="T:NavajaValirya.FrasePalindromica.formFrasePalindromica">
+            <summary>
+            Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.#ctor">
+            <summary>
+            Formulario FrasePalindromica
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.esPalindromo(System.String)">
+            <summary>
+            Función esPalindromo.
+            <para>Analiza una frase y muestra si es palindrómica o no.</para>
+            </summary>
+            <param name="frase">El parámetro <paramref name="frase"/> es la secuencia de carácteres que se quiere analizar.</param>
+            <remarks>Se pueden introducir letras, números y demás carácteres.</remarks>
+            <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
+            <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.BPalindromica_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo.
+            </summary>
+            <param name="sender">Lanza el evento del botón BPalindromica</param>
+            <param name="e">Sin uso</param>
+        </member>
         <member name="F:NavajaValirya.FrasePalindromica.formFrasePalindromica.components">
             <summary>
             Required designer variable.
@@ -151,6 +178,13 @@
         <member name="M:NavajaValirya.formPrincipal.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
             Llama a la Aplicación 2
+            </summary>
+            <param name="sender">Lanza el evento del botón button_1</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BFrasePalindromica_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 3
             </summary>
             <param name="sender">Lanza el evento del botón button_1</param>
             <param name="e">Sin uso</param>

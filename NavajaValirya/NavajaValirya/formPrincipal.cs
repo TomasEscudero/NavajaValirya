@@ -46,6 +46,11 @@ namespace NavajaValirya
             ODisposicionEfectivo.ShowDialog();
         }
 
+        /// <summary>
+        /// Llama a la Aplicación 3
+        /// </summary>
+        /// <param name="sender">Lanza el evento del botón button_1</param>
+        /// <param name="e">Sin uso</param>
         private void BFrasePalindromica_Click(object sender, EventArgs e)
         {
             FrasePalindromica.formFrasePalindromica OFrasePalindromica = new FrasePalindromica.formFrasePalindromica();

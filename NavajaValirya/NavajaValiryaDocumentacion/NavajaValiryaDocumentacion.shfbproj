@@ -48,7 +48,8 @@
 &lt;para&gt;Aplicación 3 - Frase palindrómica.&lt;/para&gt;
 &lt;para&gt;Aplicación 4 - Contador de Palabras.&lt;/para&gt;</NamespaceSummaryItem>
 <NamespaceSummaryItem name="NavajaValirya.CambioDivisa" isDocumented="True">Aplicación que realiza el cambio y devuelve el equivalente entre dos divisas, Euros y Pesetas.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaValirya.DisposicionEfectivo" isDocumented="True">Aplicación que dada una cantidad de pesetas devuelve la combinación más efectiva de billetes y monedas.</NamespaceSummaryItem></NamespaceSummaries>
+<NamespaceSummaryItem name="NavajaValirya.DisposicionEfectivo" isDocumented="True">Aplicación que dada una cantidad de pesetas devuelve la combinación más efectiva de billetes y monedas.</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaValirya.FrasePalindromica" isDocumented="True">Aplicación que analiza una frase e indica si es o no palindrómica (que es igual de izquierda a derecha que de derecha a izquierda).</NamespaceSummaryItem></NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
