@@ -158,6 +158,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:NavajaValirya.ContadorPalabras.formContadorPalabras.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:NavajaValirya.formPrincipal">
             <summary>
             Clase formulario que es el formulario principal de la aplicación NavajaValiria.
@@ -172,21 +189,28 @@
             <summary>
             Llama a la Aplicación 1
             </summary>
-            <param name="sender">Lanza el evento del botón button_1</param>
+            <param name="sender">Lanza el evento del botón BCambioDivisa</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
             Llama a la Aplicación 2
             </summary>
-            <param name="sender">Lanza el evento del botón button_1</param>
+            <param name="sender">Lanza el evento del botón BDisposicionEfectivo</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BFrasePalindromica_Click(System.Object,System.EventArgs)">
             <summary>
             Llama a la Aplicación 3
             </summary>
-            <param name="sender">Lanza el evento del botón button_1</param>
+            <param name="sender">Lanza el evento del botón BFrasePalindromica</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BContadorPalabras_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 4
+            </summary>
+            <param name="sender">Lanza el evento del botón BContadorPalabras</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="F:NavajaValirya.formPrincipal.components">

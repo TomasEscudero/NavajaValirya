@@ -31,7 +31,7 @@
             this.BCambioDivisa = new System.Windows.Forms.Button();
             this.BDisposicionEfectivo = new System.Windows.Forms.Button();
             this.BFrasePalindromica = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BContadorPalabras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BCambioDivisa
@@ -64,21 +64,22 @@
             this.BFrasePalindromica.UseVisualStyleBackColor = true;
             this.BFrasePalindromica.Click += new System.EventHandler(this.BFrasePalindromica_Click);
             // 
-            // button4
+            // BContadorPalabras
             // 
-            this.button4.Location = new System.Drawing.Point(23, 305);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(148, 61);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.BContadorPalabras.Location = new System.Drawing.Point(23, 305);
+            this.BContadorPalabras.Name = "BContadorPalabras";
+            this.BContadorPalabras.Size = new System.Drawing.Size(148, 61);
+            this.BContadorPalabras.TabIndex = 3;
+            this.BContadorPalabras.Text = "Contador de Palabras";
+            this.BContadorPalabras.UseVisualStyleBackColor = true;
+            this.BContadorPalabras.Click += new System.EventHandler(this.BContadorPalabras_Click);
             // 
             // formPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(204, 397);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.BContadorPalabras);
             this.Controls.Add(this.BFrasePalindromica);
             this.Controls.Add(this.BDisposicionEfectivo);
             this.Controls.Add(this.BCambioDivisa);
@@ -93,7 +94,7 @@
         private System.Windows.Forms.Button BCambioDivisa;
         private System.Windows.Forms.Button BDisposicionEfectivo;
         private System.Windows.Forms.Button BFrasePalindromica;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BContadorPalabras;
     }
 }
 

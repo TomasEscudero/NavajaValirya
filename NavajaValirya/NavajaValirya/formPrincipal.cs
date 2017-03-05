@@ -24,9 +24,9 @@ namespace NavajaValirya
         }
 
         /// <summary>
-        /// Llama a la Aplicación 1
+        /// Llama a la Aplicación 1 CambioDivisa
         /// </summary>
-        /// <param name="sender">Lanza el evento del botón button_1</param>
+        /// <param name="sender">Lanza el evento del botón BCambioDivisa</param>
         /// <param name="e">Sin uso</param>
         private void BCambioDivisa_Click(object sender, EventArgs e)
         {
@@ -36,9 +36,9 @@ namespace NavajaValirya
         }
 
         /// <summary>
-        /// Llama a la Aplicación 2
+        /// Llama a la Aplicación 2 DisposicionEfectivo
         /// </summary>
-        /// <param name="sender">Lanza el evento del botón button_1</param>
+        /// <param name="sender">Lanza el evento del botón BDisposicionEfectivo</param>
         /// <param name="e">Sin uso</param>
         private void BDisposicionEfectivo_Click(object sender, EventArgs e)
         {
@@ -47,14 +47,25 @@ namespace NavajaValirya
         }
 
         /// <summary>
-        /// Llama a la Aplicación 3
+        /// Llama a la Aplicación 3 FrasePalindromica
         /// </summary>
-        /// <param name="sender">Lanza el evento del botón button_1</param>
+        /// <param name="sender">Lanza el evento del botón BFrasePalindromica</param>
         /// <param name="e">Sin uso</param>
         private void BFrasePalindromica_Click(object sender, EventArgs e)
         {
             FrasePalindromica.formFrasePalindromica OFrasePalindromica = new FrasePalindromica.formFrasePalindromica();
             OFrasePalindromica.ShowDialog();
+        }
+
+        /// <summary>
+        /// Llama a la Aplicación 4 ContadorPalabras
+        /// </summary>
+        /// <param name="sender">Lanza el evento del botón BContadorPalabras</param>
+        /// <param name="e">Sin uso</param>
+        private void BContadorPalabras_Click(object sender, EventArgs e)
+        {
+            ContadorPalabras.formContadorPalabras OContadorPalabras = new ContadorPalabras.formContadorPalabras();
+            OContadorPalabras.ShowDialog();
         }
     }
 }
