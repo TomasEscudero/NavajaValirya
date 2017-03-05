@@ -66,7 +66,7 @@ namespace NavajaValirya.CambioDivisa
         /// <summary>
         /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
         /// </summary>
-        /// <param name="sender">Lanza el evento el botón button_1</param>
+        /// <param name="sender">Lanza el evento el botón BCambioEuros</param>
         /// <param name="e">Sin uso</param>        
         private void BCambioEnEuros_Click(object sender, EventArgs e)
         {

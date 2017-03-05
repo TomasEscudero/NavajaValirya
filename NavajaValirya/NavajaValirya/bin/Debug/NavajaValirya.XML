@@ -43,7 +43,7 @@
             <summary>
             Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
             </summary>
-            <param name="sender">Lanza el evento el botón button_1</param>
+            <param name="sender">Lanza el evento el botón BCambioEuros</param>
             <param name="e">Sin uso</param>        
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnPesetas_Click(System.Object,System.EventArgs)">
@@ -158,6 +158,62 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
+            <summary>
+            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">
+            <summary>
+            Formulario ContadorPalabras
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.leerPalabras(System.String)">
+            <summary>
+            Función leerPalabras.
+            <para>Recorre la frase y cuando obtiene una palabra llama a la función añadirPalabraCantidad para insertarla en la lista de palabras/>.</para>
+            </summary>
+            <param name="frase">El parámetro <paramref name="frase"/> es el conjunto de caracteres introducidos mediante la caja de texto.</param>
+            <remarks>Siempre que encuentre un espacio seleccionará una palabra.</remarks>        
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.añadirPalabraCantidad(System.String,System.Collections.ArrayList,System.Collections.ArrayList)">
+            <summary>
+            Función añadirPalabrasCantidad.        
+            <para>Añade la <paramref name="palabra"/> a la lista de palabras <ref name="palabrasOrdenadas"/> alfabeticamente y añade la cantidad de veces que aparece cada palabra en la lista de cantidades <ref name="cantidadPalabras"/>.</para>
+            </summary>
+            <param name="palabra">El parámetro <paramref name="palabra"/> es cada una de las palabras de la frase.</param>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista donde se añaden las diferentes palabras.</param>
+            <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista donde se añade la catidad de veces que aparece cada palabra.</param>
+            <remarks>Si la palabra no esta en la lista de palabras <paramref name="listaPalabras"/> la añade, pero si existe suma 1 en la posicion correspondiente de la lista de cantidades <paramref name="listaCantidad"/>.</remarks>        
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.posicionPalabra(System.Collections.ArrayList,System.String)">
+            <summary>
+            Función posicionPalabra.
+            <para>Compara las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la posición donde insertar el parámetro <paramref name="palabra"/> en la lista.</para>
+            </summary>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista de palabras donde busca el parámetro <paramref name="palabra"/>.</param>
+            <param name="palabra">El parámetro <paramref name="palabra"/> es lo que utiliza para comparar en la <paramref name="listaPalabras"/> e indicar la posición a insertar.</param>
+            <remarks>Si no hay palabras en la lista devolvera un 0.</remarks>
+            <returns name="posicion">Devuelve la posicion donde insertar la palabra en la lista de palabras <paramref name="listaPalabras"/>.</returns>
+            <value>Posicion donde insertar la palabra en la lista de palabras.</value>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.mostrarPalabrasCantidades(System.Collections.ArrayList,System.Collections.ArrayList)">
+            <summary>
+            Función mostrarPalabrasCantidades.
+            <para>Muestra las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la cantidad de cada una de ellas en la frase.</para>
+            </summary>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista de palabras diferentes que hay en la frase.</param>
+            <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista de Cantidades que hay de cada palabra.</param>        
+            <returns name="texto">Devuelve las palabras y las veces que aparecen en la frase.</returns>
+            <value>Listado de palabras y las veces que aparecenen la frase.</value>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.BContadorPalabras_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje.
+            </summary>
+            <param name="sender">Lanza el evento el botón BContadorPalabras</param>
+            <param name="e">Sin uso</param>   
+        </member>
         <member name="F:NavajaValirya.ContadorPalabras.formContadorPalabras.components">
             <summary>
             Required designer variable.
@@ -187,28 +243,28 @@
         </member>
         <member name="M:NavajaValirya.formPrincipal.BCambioDivisa_Click(System.Object,System.EventArgs)">
             <summary>
-            Llama a la Aplicación 1
+            Llama a la Aplicación 1 CambioDivisa
             </summary>
             <param name="sender">Lanza el evento del botón BCambioDivisa</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
-            Llama a la Aplicación 2
+            Llama a la Aplicación 2 DisposicionEfectivo
             </summary>
             <param name="sender">Lanza el evento del botón BDisposicionEfectivo</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BFrasePalindromica_Click(System.Object,System.EventArgs)">
             <summary>
-            Llama a la Aplicación 3
+            Llama a la Aplicación 3 FrasePalindromica
             </summary>
             <param name="sender">Lanza el evento del botón BFrasePalindromica</param>
             <param name="e">Sin uso</param>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BContadorPalabras_Click(System.Object,System.EventArgs)">
             <summary>
-            Llama a la Aplicación 4
+            Llama a la Aplicación 4 ContadorPalabras
             </summary>
             <param name="sender">Lanza el evento del botón BContadorPalabras</param>
             <param name="e">Sin uso</param>
