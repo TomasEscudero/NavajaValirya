@@ -74,6 +74,12 @@
     <Compile Include="Aplicacion 2\formDisposicionEfectivo.designer.cs">
       <DependentUpon>formDisposicionEfectivo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicacion 3\formFrasePalindromica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicacion 3\formFrasePalindromica.Designer.cs">
+      <DependentUpon>formFrasePalindromica.cs</DependentUpon>
+    </Compile>
     <Compile Include="formPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aplicacion 2\formDisposicionEfectivo.resx">
       <DependentUpon>formDisposicionEfectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicacion 3\formFrasePalindromica.resx">
+      <DependentUpon>formFrasePalindromica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formPrincipal.resx">
       <DependentUpon>formPrincipal.cs</DependentUpon>
@@ -114,7 +123,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicacion 3\" />
     <Folder Include="Aplicacion 4\" />
   </ItemGroup>
   <ItemGroup>

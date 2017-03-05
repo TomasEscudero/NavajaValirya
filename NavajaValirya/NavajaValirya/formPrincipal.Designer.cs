@@ -30,7 +30,7 @@
         {
             this.BCambioDivisa = new System.Windows.Forms.Button();
             this.BDisposicionEfectivo = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BFrasePalindromica = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -54,14 +54,15 @@
             this.BDisposicionEfectivo.UseVisualStyleBackColor = true;
             this.BDisposicionEfectivo.Click += new System.EventHandler(this.BDisposicionEfectivo_Click);
             // 
-            // button3
+            // BFrasePalindromica
             // 
-            this.button3.Location = new System.Drawing.Point(23, 237);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(148, 62);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.BFrasePalindromica.Location = new System.Drawing.Point(23, 237);
+            this.BFrasePalindromica.Name = "BFrasePalindromica";
+            this.BFrasePalindromica.Size = new System.Drawing.Size(148, 62);
+            this.BFrasePalindromica.TabIndex = 2;
+            this.BFrasePalindromica.Text = "Frase Palindrómca";
+            this.BFrasePalindromica.UseVisualStyleBackColor = true;
+            this.BFrasePalindromica.Click += new System.EventHandler(this.BFrasePalindromica_Click);
             // 
             // button4
             // 
@@ -78,7 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(204, 397);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.BFrasePalindromica);
             this.Controls.Add(this.BDisposicionEfectivo);
             this.Controls.Add(this.BCambioDivisa);
             this.Name = "formPrincipal";
@@ -91,7 +92,7 @@
 
         private System.Windows.Forms.Button BCambioDivisa;
         private System.Windows.Forms.Button BDisposicionEfectivo;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BFrasePalindromica;
         private System.Windows.Forms.Button button4;
     }
 }

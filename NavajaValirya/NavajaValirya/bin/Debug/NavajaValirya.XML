@@ -114,6 +114,23 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="F:NavajaValirya.FrasePalindromica.formFrasePalindromica.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:NavajaValirya.formPrincipal">
             <summary>
             Clase formulario que es el formulario principal de la aplicación NavajaValiria.

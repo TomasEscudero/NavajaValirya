@@ -45,5 +45,11 @@ namespace NavajaValirya
             DisposicionEfectivo.formDisposicionEfectivo ODisposicionEfectivo = new DisposicionEfectivo.formDisposicionEfectivo();
             ODisposicionEfectivo.ShowDialog();
         }
+
+        private void BFrasePalindromica_Click(object sender, EventArgs e)
+        {
+            FrasePalindromica.formFrasePalindromica OFrasePalindromica = new FrasePalindromica.formFrasePalindromica();
+            OFrasePalindromica.ShowDialog();
+        }
     }
 }
