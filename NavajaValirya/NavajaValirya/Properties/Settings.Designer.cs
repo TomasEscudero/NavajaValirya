@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NavajaValirya.Properties
+namespace NavajaValiryaDisposicioEfectivo.Properties
 {
 
 

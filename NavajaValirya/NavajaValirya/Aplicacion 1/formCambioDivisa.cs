@@ -8,10 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Namespace de la aplicación1 que corresponde a la aplicación CambioDivisa
-/// <para>Programa que realiza el cambio entre dos divisas, de Euros a Pesetas y viceversa.</para>
-/// </summary>
+
 namespace NavajaValirya.CambioDivisa
 {
     /// <summary>
@@ -40,7 +37,7 @@ namespace NavajaValirya.CambioDivisa
         /// <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
         /// <value>El dinero cambiado a pesetas.</value>
-        double cambioEuros(double cantidadEuros)
+        public double cambioEuros(double cantidadEuros)
         {
             double resultadoCambio;
 
@@ -57,7 +54,7 @@ namespace NavajaValirya.CambioDivisa
         /// <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
         /// <value>El dinero cambiado a euros.</value>
-        double cambioPesetas(double cantidadPesetas)
+        public double cambioPesetas(double cantidadPesetas)
         {
             double resultadoCambio;
 
@@ -70,9 +67,8 @@ namespace NavajaValirya.CambioDivisa
         /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
         /// </summary>
         /// <param name="sender">Lanza el evento el botón button_1</param>
-        /// <param name="e">Sin uso</param>
-        
-        private void button1_Click(object sender, EventArgs e)
+        /// <param name="e">Sin uso</param>        
+        private void BCambioEnEuros_Click(object sender, EventArgs e)
         {
             double cantidadPesetas, resultadoEuros;
 
@@ -88,7 +84,7 @@ namespace NavajaValirya.CambioDivisa
         /// </summary>
         /// <param name="sender">Lanza el evento el botón button_1</param>
         /// <param name="e">Sin uso</param>
-        private void button2_Click(object sender, EventArgs e)
+        private void BCambioEnPesetas_Click(object sender, EventArgs e)
         {
             double cantidadEuros, resultadoPesetas;
 

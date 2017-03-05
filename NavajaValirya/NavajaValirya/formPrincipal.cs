@@ -28,11 +28,22 @@ namespace NavajaValirya
         /// </summary>
         /// <param name="sender">Lanza el evento del botón button_1</param>
         /// <param name="e">Sin uso</param>
-        private void button1_Click(object sender, EventArgs e)
+        private void BCambioDivisa_Click(object sender, EventArgs e)
         {
-            CambioDivisa.formCambioDivisa oCambioDivisa = new CambioDivisa.formCambioDivisa();
-            oCambioDivisa.ShowDialog();
+            CambioDivisa.formCambioDivisa OCambioDivisa = new CambioDivisa.formCambioDivisa();
+            OCambioDivisa.ShowDialog();
             
+        }
+
+        /// <summary>
+        /// Llama a la Aplicación 2
+        /// </summary>
+        /// <param name="sender">Lanza el evento del botón button_1</param>
+        /// <param name="e">Sin uso</param>
+        private void BDisposicionEfectivo_Click(object sender, EventArgs e)
+        {
+            DisposicionEfectivo.formDisposicionEfectivo ODisposicionEfectivo = new DisposicionEfectivo.formDisposicionEfectivo();
+            ODisposicionEfectivo.ShowDialog();
         }
     }
 }

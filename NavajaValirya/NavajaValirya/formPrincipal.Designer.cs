@@ -28,30 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.BCambioDivisa = new System.Windows.Forms.Button();
+            this.BDisposicionEfectivo = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // BCambioDivisa
             // 
-            this.button1.Location = new System.Drawing.Point(23, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(148, 62);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.BCambioDivisa.Location = new System.Drawing.Point(23, 32);
+            this.BCambioDivisa.Name = "BCambioDivisa";
+            this.BCambioDivisa.Size = new System.Drawing.Size(148, 62);
+            this.BCambioDivisa.TabIndex = 0;
+            this.BCambioDivisa.Text = "Cambio de Divisas [€-Ptas.]";
+            this.BCambioDivisa.UseVisualStyleBackColor = true;
+            this.BCambioDivisa.Click += new System.EventHandler(this.BCambioDivisa_Click);
             // 
-            // button2
+            // BDisposicionEfectivo
             // 
-            this.button2.Location = new System.Drawing.Point(23, 100);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(148, 62);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BDisposicionEfectivo.Location = new System.Drawing.Point(23, 100);
+            this.BDisposicionEfectivo.Name = "BDisposicionEfectivo";
+            this.BDisposicionEfectivo.Size = new System.Drawing.Size(148, 62);
+            this.BDisposicionEfectivo.TabIndex = 1;
+            this.BDisposicionEfectivo.Text = "Disposición de Efectivo";
+            this.BDisposicionEfectivo.UseVisualStyleBackColor = true;
+            this.BDisposicionEfectivo.Click += new System.EventHandler(this.BDisposicionEfectivo_Click);
             // 
             // button3
             // 
@@ -78,8 +79,8 @@
             this.ClientSize = new System.Drawing.Size(204, 397);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BDisposicionEfectivo);
+            this.Controls.Add(this.BCambioDivisa);
             this.Name = "formPrincipal";
             this.Text = "Navaja Valirya";
             this.ResumeLayout(false);
@@ -88,8 +89,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BCambioDivisa;
+        private System.Windows.Forms.Button BDisposicionEfectivo;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }

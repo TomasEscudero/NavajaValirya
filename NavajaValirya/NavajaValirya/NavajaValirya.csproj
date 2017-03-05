@@ -68,6 +68,12 @@
     <Compile Include="Aplicacion 1\formCambioDivisa.designer.cs">
       <DependentUpon>formCambioDivisa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Aplicacion 2\formDisposicionEfectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aplicacion 2\formDisposicionEfectivo.designer.cs">
+      <DependentUpon>formDisposicionEfectivo.cs</DependentUpon>
+    </Compile>
     <Compile Include="formPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aplicacion 1\formCambioDivisa.resx">
       <DependentUpon>formCambioDivisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aplicacion 2\formDisposicionEfectivo.resx">
+      <DependentUpon>formDisposicionEfectivo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formPrincipal.resx">
       <DependentUpon>formPrincipal.cs</DependentUpon>
@@ -105,7 +114,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aplicacion 2\" />
     <Folder Include="Aplicacion 3\" />
     <Folder Include="Aplicacion 4\" />
   </ItemGroup>
