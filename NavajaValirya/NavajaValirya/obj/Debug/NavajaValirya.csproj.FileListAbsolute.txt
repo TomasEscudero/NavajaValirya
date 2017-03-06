@@ -22,3 +22,20 @@ F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Nav
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.resources
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.FrasePalindromica.formFrasePalindromica.resources
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.ContadorPalabras.formContadorPalabras.resources
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csprojResolveAssemblyReference.cache
+E:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.resources
+E:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.FrasePalindromica.formFrasePalindromica.resources
+E:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.ContadorPalabras.formContadorPalabras.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe.config
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.XML
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.exe
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.pdb
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.CambioDivisa.formCambioDivisa.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.FrasePalindromica.formFrasePalindromica.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.ContadorPalabras.formContadorPalabras.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.formPrincipal.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.Properties.Resources.resources
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csproj.GenerateResource.Cache
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe
+C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.pdb

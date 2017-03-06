@@ -9,15 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 
+/// <summary>
+/// Namespace de la Aplicación 4 del proyecto NavajaValirya.
+/// </summary>
 namespace NavajaValirya.ContadorPalabras
 {
     /// <summary>
-    /// Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras
+    /// Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
+    /// <para>Clase que cuenta las palabras diferentes que hay en una frase.</para>
     /// </summary>
     public partial class formContadorPalabras : Form
     {
         /// <summary>
-        /// Formulario ContadorPalabras
+        /// Inicializa los componentes del Formulario ContadorPalabras.
         /// </summary>
         public formContadorPalabras()
         {

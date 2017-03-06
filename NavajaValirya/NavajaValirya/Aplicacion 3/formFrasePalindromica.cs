@@ -8,15 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Namespace de la Aplicación 3 del proyecto NavajaValirya.
+/// </summary>
 namespace NavajaValirya.FrasePalindromica
 {
     /// <summary>
-    /// Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica
+    /// Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica.
+    /// <para>Clase que analiza una frase y resuelve si es palindrómica o no.</para>
     /// </summary>
     public partial class formFrasePalindromica : Form
     {
         /// <summary>
-        /// Formulario FrasePalindromica
+        /// Inicializa los componentes del Formulario FrasePalindromica.
         /// </summary>
         public formFrasePalindromica()
         {

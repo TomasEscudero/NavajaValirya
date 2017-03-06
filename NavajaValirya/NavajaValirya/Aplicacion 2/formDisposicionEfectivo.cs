@@ -8,15 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Namespace de la Aplicación 2 del proyecto NavajaValirya.
+/// </summary>
 namespace NavajaValirya.DisposicionEfectivo
 {
     /// <summary>
-    /// Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo
+    /// Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
+    /// <para>Clase que devuelve la cantidad de billetes y monedas mínimos para la cantidad introducida.</para>
     /// </summary>
     public partial class formDisposicionEfectivo : Form
     {
         /// <summary>
-        /// Formulario DisposicionEfectivo
+        /// Inicializa los componentes del Formulario DisposicionEfectivo.
         /// </summary>
         public formDisposicionEfectivo()
         {
@@ -155,10 +159,15 @@ namespace NavajaValirya.DisposicionEfectivo
         {
             int cantidadEfectivo;
 
-            cantidadEfectivo = int.Parse(TCantidad.Text);          
+            if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
+            {
+                LDisposicion.Text = disposicionEfectiva(cantidadEfectivo);                
+            }
 
-            LDisposicion.Text = disposicionEfectiva(cantidadEfectivo);
-                     
+            else
+            {
+                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+            }                 
         }
     }
 }

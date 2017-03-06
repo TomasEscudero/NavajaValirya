@@ -6,12 +6,12 @@
     <members>
         <member name="T:NavajaValirya.CambioDivisa.formCambioDivisa">
             <summary>
-            Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa
+            Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa.
             </summary>
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.#ctor">
             <summary>
-            Formulario CambioDivisa
+            Inicializa los componentes del Formulario CambioDivisa.
             </summary>
         </member>
         <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.kVALOR">
@@ -72,12 +72,12 @@
         </member>
         <member name="T:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo">
             <summary>
-            Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo
+            Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
             </summary>
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.#ctor">
             <summary>
-            Formulario DisposicionEfectivo
+            Inicializa los componentes del Formulario DisposicionEfectivo.
             </summary>
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.disposicionEfectiva(System.Int32)">
@@ -116,12 +116,12 @@
         </member>
         <member name="T:NavajaValirya.FrasePalindromica.formFrasePalindromica">
             <summary>
-            Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica
+            Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica.
             </summary>
         </member>
         <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.#ctor">
             <summary>
-            Formulario FrasePalindromica
+            Inicializa los componentes del Formulario FrasePalindromica.
             </summary>
         </member>
         <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.esPalindromo(System.String)">
@@ -160,12 +160,12 @@
         </member>
         <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
             <summary>
-            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras
+            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
             </summary>
         </member>
         <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">
             <summary>
-            Formulario ContadorPalabras
+            Inicializa los componentes del Formulario ContadorPalabras.
             </summary>
         </member>
         <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.leerPalabras(System.String)">

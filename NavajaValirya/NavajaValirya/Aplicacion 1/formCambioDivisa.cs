@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
+/// <summary>
+/// Namespace de la Aplicación 1 del proyecto NavajaValirya.
+/// </summary>
 namespace NavajaValirya.CambioDivisa
 {
     /// <summary>
-    /// Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa
+    /// Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa.
+    /// <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
     /// </summary>
     public partial class formCambioDivisa : Form
     {
         /// <summary>
-        /// Formulario CambioDivisa
+        /// Inicializa los componentes del Formulario CambioDivisa.
         /// </summary>
         public formCambioDivisa()
         {
@@ -72,11 +75,20 @@ namespace NavajaValirya.CambioDivisa
         {
             double cantidadPesetas, resultadoEuros;
 
-            cantidadPesetas = double.Parse(TCantidad.Text);
+            cantidadPesetas = 0;
+            resultadoEuros = 0;
 
-            resultadoEuros = cambioEuros(cantidadPesetas);
+            if (double.TryParse(TCantidad.Text, out cantidadPesetas))
+            {
+                resultadoEuros = cambioEuros(cantidadPesetas);
+                MessageBox.Show("El cambio son: " + resultadoEuros + "€.");
+            }
 
-            MessageBox.Show("El cambio son: " + resultadoEuros + "€.");            
+            else
+            {
+                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+            }            
+                        
         }
 
         /// <summary>
@@ -88,11 +100,20 @@ namespace NavajaValirya.CambioDivisa
         {
             double cantidadEuros, resultadoPesetas;
 
-            cantidadEuros = double.Parse(TCantidad.Text);
+            cantidadEuros = 0;
+            resultadoPesetas = 0;
 
-            resultadoPesetas = cambioPesetas(cantidadEuros);
+            if (double.TryParse(TCantidad.Text, out cantidadEuros))
+            {
+                resultadoPesetas = cambioPesetas(cantidadEuros);
+                MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
+            }
+            else
+            {
+                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+            }                       
 
-            MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
+            
         }
     }
 }
