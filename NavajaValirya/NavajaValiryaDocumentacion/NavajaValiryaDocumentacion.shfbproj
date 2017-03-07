@@ -42,19 +42,72 @@
     <HelpTitle>Help Navaja Valirya</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <NamespaceSummaries>
-      <NamespaceSummaryItem name="NavajaValirya" isDocumented="True">Namespace del proyecto NavajaValirya.
+      <NamespaceSummaryItem name="NavajaValirya" isDocumented="True">&lt;sumary&gt;
+Namespace del proyecto NavajaValirya.
 &lt;para&gt;Aplicación que se compone de 4 aplicaciones independientes.&lt;/para&gt;
 &lt;para&gt;Aplicación 1 - Cambio de Divisa.&lt;/para&gt;
 &lt;para&gt;Apllicación 2 - Disposición de Efectivo.&lt;/para&gt;
 &lt;para&gt;Aplicación 3 - Frase palindrómica.&lt;/para&gt;
-&lt;para&gt;Aplicación 4 - Contador de Palabras.&lt;/para&gt;</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaValirya.CambioDivisa" isDocumented="True">Namespace de la Aplicación 1 del proyecto NavajaValirya.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaValirya.DisposicionEfectivo" isDocumented="True">Namespace de la Aplicación 2 del proyecto NavajaValirya.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaValirya.FrasePalindromica" isDocumented="True">Namespace de la Aplicación 3 del proyecto NavajaValirya.</NamespaceSummaryItem>
-<NamespaceSummaryItem name="NavajaValirya.ContadorPalabras" isDocumented="True">Namespace de la Aplicación 4 del proyecto NavajaValirya.</NamespaceSummaryItem></NamespaceSummaries>
+&lt;para&gt;Aplicación 4 - Contador de Palabras.&lt;/para&gt;
+&lt;/sumary&gt;</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaValirya.CambioDivisa" isDocumented="True">Namespace de la Aplicación 1 del proyecto NavajaValirya.
+&lt;para&gt;Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.&lt;/para&gt;</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaValirya.DisposicionEfectivo" isDocumented="True">Namespace de la Aplicación 2 del proyecto NavajaValirya.
+&lt;para&gt;Clase que devuelve la cantidad de billetes y monedas mínimos para la alcanzar la cantidad introducida.&lt;/para&gt;</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaValirya.FrasePalindromica" isDocumented="True">Namespace de la Aplicación 3 del proyecto NavajaValirya.
+&lt;para&gt;Clase que analiza una frase y resuelve si es palindrómica o no.&lt;/para&gt;</NamespaceSummaryItem>
+<NamespaceSummaryItem name="NavajaValirya.ContadorPalabras" isDocumented="True">Namespace de la Aplicación 4 del proyecto NavajaValirya.
+&lt;para&gt;Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.&lt;/para&gt;</NamespaceSummaryItem></NamespaceSummaries>
     <VisibleItems>InheritedMembers, InheritedFrameworkMembers, Privates, PrivateFields, Protected, ProtectedInternalAsProtected</VisibleItems>
     <ApiFilter>
-      <Filter entryType="Namespace" fullName="System" isExposed="True">
+      <Filter entryType="Namespace" fullName="NavajaValirya" isExposed="True">
+  <Filter entryType="Class" fullName="NavajaValirya.formPrincipal" filterName="formPrincipal" isExposed="False">
+    <Filter entryType="Constructor" fullName="NavajaValirya.formPrincipal.#ctor" filterName=".ctor" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.formPrincipal.BCambioDivisa_Click" filterName="BCambioDivisa_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.formPrincipal.BContadorPalabras_Click" filterName="BContadorPalabras_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.formPrincipal.BDisposicionEfectivo_Click" filterName="BDisposicionEfectivo_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.formPrincipal.BFrasePalindromica_Click" filterName="BFrasePalindromica_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.formPrincipal.InitializeComponent" filterName="InitializeComponent" isExposed="True" />
+  </Filter>
+</Filter>
+<Filter entryType="Namespace" fullName="NavajaValirya.CambioDivisa" isExposed="True">
+  <Filter entryType="Class" fullName="NavajaValirya.CambioDivisa.formCambioDivisa" filterName="formCambioDivisa" isExposed="True">
+    <Filter entryType="Method" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.Dispose" filterName="Dispose" isExposed="False" />
+    <Filter entryType="Field" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnEuros" filterName="BCambioEnEuros" isExposed="False" />
+    <Filter entryType="Field" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnPesetas" filterName="BCambioEnPesetas" isExposed="False" />
+    <Filter entryType="Field" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.components" filterName="components" isExposed="False" />
+    <Filter entryType="Field" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.LCantidad" filterName="LCantidad" isExposed="False" />
+    <Filter entryType="Field" fullName="NavajaValirya.CambioDivisa.formCambioDivisa.TCantidad" filterName="TCantidad" isExposed="False" />
+  </Filter>
+</Filter>
+<Filter entryType="Namespace" fullName="NavajaValirya.ContadorPalabras" isExposed="True">
+  <Filter entryType="Class" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras" filterName="formContadorPalabras" isExposed="False">
+    <Filter entryType="Constructor" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor" filterName=".ctor" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.añadirPalabraCantidad" filterName="añadirPalabraCantidad" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.BContadorPalabras_Click" filterName="BContadorPalabras_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.InitializeComponent" filterName="InitializeComponent" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.leerPalabras" filterName="leerPalabras" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.mostrarPalabrasCantidades" filterName="mostrarPalabrasCantidades" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.ContadorPalabras.formContadorPalabras.posicionPalabra" filterName="posicionPalabra" isExposed="True" />
+  </Filter>
+</Filter>
+<Filter entryType="Namespace" fullName="NavajaValirya.DisposicionEfectivo" isExposed="True">
+  <Filter entryType="Class" fullName="NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo" filterName="formDisposicionEfectivo" isExposed="False">
+    <Filter entryType="Constructor" fullName="NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.#ctor" filterName=".ctor" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.BDisposicionEfectivo_Click" filterName="BDisposicionEfectivo_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.disposicionEfectiva" filterName="disposicionEfectiva" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.InitializeComponent" filterName="InitializeComponent" isExposed="True" />
+  </Filter>
+</Filter>
+<Filter entryType="Namespace" fullName="NavajaValirya.FrasePalindromica" isExposed="True">
+  <Filter entryType="Class" fullName="NavajaValirya.FrasePalindromica.formFrasePalindromica" filterName="formFrasePalindromica" isExposed="False">
+    <Filter entryType="Constructor" fullName="NavajaValirya.FrasePalindromica.formFrasePalindromica.#ctor" filterName=".ctor" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.FrasePalindromica.formFrasePalindromica.BPalindromica_Click" filterName="BPalindromica_Click" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.FrasePalindromica.formFrasePalindromica.esPalindromo" filterName="esPalindromo" isExposed="True" />
+    <Filter entryType="Method" fullName="NavajaValirya.FrasePalindromica.formFrasePalindromica.InitializeComponent" filterName="InitializeComponent" isExposed="True" />
+  </Filter>
+</Filter>
+<Filter entryType="Namespace" fullName="System" isExposed="True">
   <Filter entryType="Class" fullName="System.MarshalByRefObject" filterName="MarshalByRefObject" isExposed="False" />
   <Filter entryType="Class" fullName="System.Object" filterName="Object" isExposed="False" />
 </Filter>

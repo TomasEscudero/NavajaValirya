@@ -15,7 +15,7 @@ namespace NavajaValirya.DisposicionEfectivo
 {
     /// <summary>
     /// Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
-    /// <para>Clase que devuelve la cantidad de billetes y monedas mínimos para la cantidad introducida.</para>
+    /// <para>Clase que devuelve la cantidad de billetes y monedas mínimos para la alcanzar la cantidad introducida.</para>
     /// </summary>
     public partial class formDisposicionEfectivo : Form
     {
@@ -40,7 +40,7 @@ namespace NavajaValirya.DisposicionEfectivo
         /// <remarks>Siempre intentará entregar el mínimo número de billetes y monedas.</remarks>
         /// <returns name="disposicionFinal">Devuelve la <ref name="disposicionFinal"/>, que es el menor número de billetes y monedas posible.</returns>
         /// <value>Cantidad de billetes y monedas.</value>
-        public string disposicionEfectiva(int cantidadPesetas)
+        private string disposicionEfectiva(int cantidadPesetas)
         {
             int cantidadEfectivo, billeteMoneda;
             string disposicionFinal;

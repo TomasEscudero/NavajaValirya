@@ -35,7 +35,7 @@ namespace NavajaValirya.FrasePalindromica
         /// <remarks>Se pueden introducir letras, números y demás carácteres.</remarks>
         /// <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
         /// <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
-        public bool esPalindromo(string frase)
+        private bool esPalindromo(string frase)
         {
             int i, caracteres;
             bool palindromo;
@@ -60,6 +60,7 @@ namespace NavajaValirya.FrasePalindromica
                 {
                     palindromo = false;
                 }
+
                 else
                 {
                     i++;

@@ -39,3 +39,17 @@ C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debu
 C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csproj.GenerateResource.Cache
 C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe
 C:\Users\yo\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.pdb
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe.config
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.XML
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.exe
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.pdb
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.pdb
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csprojResolveAssemblyReference.cache
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.CambioDivisa.formCambioDivisa.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.FrasePalindromica.formFrasePalindromica.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.ContadorPalabras.formContadorPalabras.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.formPrincipal.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.Properties.Resources.resources
+C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csproj.GenerateResource.Cache

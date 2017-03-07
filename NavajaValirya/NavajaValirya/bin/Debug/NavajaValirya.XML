@@ -7,6 +7,7 @@
         <member name="T:NavajaValirya.CambioDivisa.formCambioDivisa">
             <summary>
             Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa.
+            <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
             </summary>
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.#ctor">
@@ -73,6 +74,7 @@
         <member name="T:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo">
             <summary>
             Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
+            <para>Clase que devuelve la cantidad de billetes y monedas mínimos para la alcanzar la cantidad introducida.</para>
             </summary>
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.#ctor">
@@ -117,6 +119,7 @@
         <member name="T:NavajaValirya.FrasePalindromica.formFrasePalindromica">
             <summary>
             Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica.
+            <para>Clase que analiza una frase y resuelve si es palindrómica o no.</para>
             </summary>
         </member>
         <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.#ctor">
@@ -161,6 +164,7 @@
         <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
             <summary>
             Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
+            <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
             </summary>
         </member>
         <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">

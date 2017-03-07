@@ -68,7 +68,7 @@
             this.Controls.Add(this.LFrase);
             this.Controls.Add(this.BPalindromica);
             this.Name = "formFrasePalindromica";
-            this.Text = "Frase Palindromica";
+            this.Text = "Frase Palindrómica";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -16,7 +16,7 @@ namespace NavajaValirya.ContadorPalabras
 {
     /// <summary>
     /// Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
-    /// <para>Clase que cuenta las palabras diferentes que hay en una frase.</para>
+    /// <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
     /// </summary>
     public partial class formContadorPalabras : Form
     {
@@ -37,7 +37,7 @@ namespace NavajaValirya.ContadorPalabras
         /// </summary>
         /// <param name="frase">El parámetro <paramref name="frase"/> es el conjunto de caracteres introducidos mediante la caja de texto.</param>
         /// <remarks>Siempre que encuentre un espacio seleccionará una palabra.</remarks>        
-        public void leerPalabras(string frase)
+        private void leerPalabras(string frase)
         {
             int i;
             string palabra;
@@ -71,7 +71,7 @@ namespace NavajaValirya.ContadorPalabras
         /// <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista donde se añaden las diferentes palabras.</param>
         /// <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista donde se añade la catidad de veces que aparece cada palabra.</param>
         /// <remarks>Si la palabra no esta en la lista de palabras <paramref name="listaPalabras"/> la añade, pero si existe suma 1 en la posicion correspondiente de la lista de cantidades <paramref name="listaCantidad"/>.</remarks>        
-        public void añadirPalabraCantidad(string palabra, ArrayList listaPalabras, ArrayList listaCantidad)
+        private void añadirPalabraCantidad(string palabra, ArrayList listaPalabras, ArrayList listaCantidad)
         {
             int posicion;
 
@@ -111,7 +111,7 @@ namespace NavajaValirya.ContadorPalabras
         /// <remarks>Si no hay palabras en la lista devolvera un 0.</remarks>
         /// <returns name="posicion">Devuelve la posicion donde insertar la palabra en la lista de palabras <paramref name="listaPalabras"/>.</returns>
         /// <value>Posicion donde insertar la palabra en la lista de palabras.</value>
-        public int posicionPalabra(ArrayList listaPalabras, string palabra) 
+        private int posicionPalabra(ArrayList listaPalabras, string palabra) 
         {
             int i, busqueda, posicion;
             bool encontrada;
@@ -147,7 +147,7 @@ namespace NavajaValirya.ContadorPalabras
         /// <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista de Cantidades que hay de cada palabra.</param>        
         /// <returns name="texto">Devuelve las palabras y las veces que aparecen en la frase.</returns>
         /// <value>Listado de palabras y las veces que aparecenen la frase.</value>
-        public string mostrarPalabrasCantidades(ArrayList listaPalabras, ArrayList listaCantidad)
+        private string mostrarPalabrasCantidades(ArrayList listaPalabras, ArrayList listaCantidad)
         {
             int i;
             string texto;

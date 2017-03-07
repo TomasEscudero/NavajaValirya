@@ -40,7 +40,7 @@ namespace NavajaValirya.CambioDivisa
         /// <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
         /// <value>El dinero cambiado a pesetas.</value>
-        public double cambioEuros(double cantidadEuros)
+        private double cambioEuros(double cantidadEuros)
         {
             double resultadoCambio;
 
@@ -57,7 +57,7 @@ namespace NavajaValirya.CambioDivisa
         /// <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
         /// <value>El dinero cambiado a euros.</value>
-        public double cambioPesetas(double cantidadPesetas)
+        private double cambioPesetas(double cantidadPesetas)
         {
             double resultadoCambio;
 
