@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formCambioDivisa));
             this.TCantidad = new System.Windows.Forms.TextBox();
             this.LCantidad = new System.Windows.Forms.Label();
             this.BCambioEnEuros = new System.Windows.Forms.Button();
@@ -36,25 +37,27 @@
             // 
             // TCantidad
             // 
-            this.TCantidad.Location = new System.Drawing.Point(103, 37);
+            this.TCantidad.Location = new System.Drawing.Point(103, 38);
             this.TCantidad.Name = "TCantidad";
-            this.TCantidad.Size = new System.Drawing.Size(238, 20);
+            this.TCantidad.Size = new System.Drawing.Size(269, 20);
             this.TCantidad.TabIndex = 0;
             // 
             // LCantidad
             // 
             this.LCantidad.AutoSize = true;
-            this.LCantidad.Location = new System.Drawing.Point(29, 40);
+            this.LCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LCantidad.Location = new System.Drawing.Point(27, 37);
             this.LCantidad.Name = "LCantidad";
-            this.LCantidad.Size = new System.Drawing.Size(52, 13);
+            this.LCantidad.Size = new System.Drawing.Size(70, 18);
             this.LCantidad.TabIndex = 1;
             this.LCantidad.Text = "Cantidad:";
             // 
             // BCambioEnEuros
             // 
-            this.BCambioEnEuros.Location = new System.Drawing.Point(32, 88);
+            this.BCambioEnEuros.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BCambioEnEuros.Location = new System.Drawing.Point(217, 158);
             this.BCambioEnEuros.Name = "BCambioEnEuros";
-            this.BCambioEnEuros.Size = new System.Drawing.Size(144, 110);
+            this.BCambioEnEuros.Size = new System.Drawing.Size(144, 61);
             this.BCambioEnEuros.TabIndex = 2;
             this.BCambioEnEuros.Text = "Cambia a €";
             this.BCambioEnEuros.UseVisualStyleBackColor = true;
@@ -62,9 +65,10 @@
             // 
             // BCambioEnPesetas
             // 
-            this.BCambioEnPesetas.Location = new System.Drawing.Point(202, 87);
+            this.BCambioEnPesetas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BCambioEnPesetas.Location = new System.Drawing.Point(12, 158);
             this.BCambioEnPesetas.Name = "BCambioEnPesetas";
-            this.BCambioEnPesetas.Size = new System.Drawing.Size(139, 111);
+            this.BCambioEnPesetas.Size = new System.Drawing.Size(139, 61);
             this.BCambioEnPesetas.TabIndex = 3;
             this.BCambioEnPesetas.Text = "Cambia a ptas.";
             this.BCambioEnPesetas.UseVisualStyleBackColor = true;
@@ -74,7 +78,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 228);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(384, 266);
             this.Controls.Add(this.BCambioEnPesetas);
             this.Controls.Add(this.BCambioEnEuros);
             this.Controls.Add(this.LCantidad);

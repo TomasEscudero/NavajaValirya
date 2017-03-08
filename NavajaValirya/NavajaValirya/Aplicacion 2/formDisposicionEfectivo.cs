@@ -46,7 +46,7 @@ namespace NavajaValirya.DisposicionEfectivo
             string disposicionFinal;
 
             cantidadEfectivo = cantidadPesetas;
-            disposicionFinal = "";
+            disposicionFinal = "La disposición es: ";
 
             if (cantidadEfectivo >= 10000)
             {
@@ -54,7 +54,7 @@ namespace NavajaValirya.DisposicionEfectivo
 
                 cantidadEfectivo = cantidadEfectivo % 10000;
 
-                disposicionFinal = "\n" + "Entregar " + billeteMoneda + " billete/s de 10.000 pts.";
+                disposicionFinal = disposicionFinal + "\n" + "Entregar " + billeteMoneda + " billete/s de 10.000 pts.";
             }
 
             if (cantidadEfectivo >= 5000)

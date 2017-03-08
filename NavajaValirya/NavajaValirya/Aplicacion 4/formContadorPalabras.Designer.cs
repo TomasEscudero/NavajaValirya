@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formContadorPalabras));
             this.BContadorPalabras = new System.Windows.Forms.Button();
             this.LFrase = new System.Windows.Forms.Label();
             this.TFrase = new System.Windows.Forms.TextBox();
@@ -35,7 +36,8 @@
             // 
             // BContadorPalabras
             // 
-            this.BContadorPalabras.Location = new System.Drawing.Point(120, 69);
+            this.BContadorPalabras.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BContadorPalabras.Location = new System.Drawing.Point(230, 133);
             this.BContadorPalabras.Name = "BContadorPalabras";
             this.BContadorPalabras.Size = new System.Drawing.Size(176, 52);
             this.BContadorPalabras.TabIndex = 0;
@@ -46,15 +48,17 @@
             // LFrase
             // 
             this.LFrase.AutoSize = true;
-            this.LFrase.Location = new System.Drawing.Point(14, 32);
+            this.LFrase.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LFrase.Location = new System.Drawing.Point(4, 28);
             this.LFrase.Name = "LFrase";
-            this.LFrase.Size = new System.Drawing.Size(36, 13);
+            this.LFrase.Size = new System.Drawing.Size(50, 18);
             this.LFrase.TabIndex = 1;
             this.LFrase.Text = "Frase:";
             // 
             // TFrase
             // 
             this.TFrase.Location = new System.Drawing.Point(60, 29);
+            this.TFrase.MaxLength = 500;
             this.TFrase.Name = "TFrase";
             this.TFrase.Size = new System.Drawing.Size(346, 20);
             this.TFrase.TabIndex = 2;
@@ -63,7 +67,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(418, 144);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(418, 197);
             this.Controls.Add(this.TFrase);
             this.Controls.Add(this.LFrase);
             this.Controls.Add(this.BContadorPalabras);

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formDisposicionEfectivo));
             this.LValor = new System.Windows.Forms.Label();
             this.TCantidad = new System.Windows.Forms.TextBox();
             this.LDisposicion = new System.Windows.Forms.Label();
@@ -37,34 +38,37 @@
             // LValor
             // 
             this.LValor.AutoSize = true;
-            this.LValor.Location = new System.Drawing.Point(22, 22);
+            this.LValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LValor.Location = new System.Drawing.Point(12, 21);
             this.LValor.Name = "LValor";
-            this.LValor.Size = new System.Drawing.Size(52, 13);
+            this.LValor.Size = new System.Drawing.Size(70, 18);
             this.LValor.TabIndex = 0;
             this.LValor.Text = "Cantidad:";
             this.LValor.Click += new System.EventHandler(this.label1_Click);
             // 
             // TCantidad
             // 
-            this.TCantidad.Location = new System.Drawing.Point(103, 19);
+            this.TCantidad.Location = new System.Drawing.Point(88, 22);
             this.TCantidad.Name = "TCantidad";
-            this.TCantidad.Size = new System.Drawing.Size(179, 20);
+            this.TCantidad.Size = new System.Drawing.Size(197, 20);
             this.TCantidad.TabIndex = 1;
             // 
             // LDisposicion
             // 
             this.LDisposicion.AutoSize = true;
-            this.LDisposicion.Location = new System.Drawing.Point(22, 100);
+            this.LDisposicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LDisposicion.Location = new System.Drawing.Point(12, 112);
             this.LDisposicion.Name = "LDisposicion";
-            this.LDisposicion.Size = new System.Drawing.Size(91, 13);
+            this.LDisposicion.Size = new System.Drawing.Size(127, 18);
             this.LDisposicion.TabIndex = 2;
             this.LDisposicion.Text = "La disposición es:";
             // 
             // BDisposicionEfectivo
             // 
-            this.BDisposicionEfectivo.Location = new System.Drawing.Point(103, 54);
+            this.BDisposicionEfectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BDisposicionEfectivo.Location = new System.Drawing.Point(88, 57);
             this.BDisposicionEfectivo.Name = "BDisposicionEfectivo";
-            this.BDisposicionEfectivo.Size = new System.Drawing.Size(179, 27);
+            this.BDisposicionEfectivo.Size = new System.Drawing.Size(197, 41);
             this.BDisposicionEfectivo.TabIndex = 3;
             this.BDisposicionEfectivo.Text = "Disposición de Efectivo";
             this.BDisposicionEfectivo.UseVisualStyleBackColor = true;
@@ -74,7 +78,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 295);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(297, 352);
             this.Controls.Add(this.BDisposicionEfectivo);
             this.Controls.Add(this.LDisposicion);
             this.Controls.Add(this.TCantidad);

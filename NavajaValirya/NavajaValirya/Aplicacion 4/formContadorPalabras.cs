@@ -177,6 +177,9 @@ namespace NavajaValirya.ContadorPalabras
             leerPalabras(frase);
 
             MessageBox.Show(mostrarPalabrasCantidades(palabrasOrdenadas, cantidadPalabras));
+
+            palabrasOrdenadas.Clear();
+            cantidadPalabras.Clear();
         }
     }
 }

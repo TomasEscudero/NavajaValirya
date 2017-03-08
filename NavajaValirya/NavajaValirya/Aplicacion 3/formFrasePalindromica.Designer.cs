@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formFrasePalindromica));
             this.BPalindromica = new System.Windows.Forms.Button();
             this.LFrase = new System.Windows.Forms.Label();
             this.TFrase = new System.Windows.Forms.TextBox();
@@ -35,7 +36,8 @@
             // 
             // BPalindromica
             // 
-            this.BPalindromica.Location = new System.Drawing.Point(141, 86);
+            this.BPalindromica.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BPalindromica.Location = new System.Drawing.Point(258, 104);
             this.BPalindromica.Name = "BPalindromica";
             this.BPalindromica.Size = new System.Drawing.Size(184, 45);
             this.BPalindromica.TabIndex = 0;
@@ -46,15 +48,20 @@
             // LFrase
             // 
             this.LFrase.AutoSize = true;
-            this.LFrase.Location = new System.Drawing.Point(12, 29);
+            this.LFrase.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.LFrase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.LFrase.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LFrase.Location = new System.Drawing.Point(12, 27);
             this.LFrase.Name = "LFrase";
-            this.LFrase.Size = new System.Drawing.Size(36, 13);
+            this.LFrase.Size = new System.Drawing.Size(52, 20);
             this.LFrase.TabIndex = 1;
             this.LFrase.Text = "Frase:";
             // 
             // TFrase
             // 
+            this.TFrase.BackColor = System.Drawing.SystemColors.MenuBar;
             this.TFrase.Location = new System.Drawing.Point(72, 26);
+            this.TFrase.MaxLength = 500;
             this.TFrase.Name = "TFrase";
             this.TFrase.Size = new System.Drawing.Size(370, 20);
             this.TFrase.TabIndex = 2;
@@ -63,6 +70,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(454, 161);
             this.Controls.Add(this.TFrase);
             this.Controls.Add(this.LFrase);
