@@ -19,6 +19,7 @@
             <summary>
             Es la constante para realizar el cambio entre las divisas.
             </summary>
+            <value>1 Euro = 166.386 pesetas</value>
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambioEuros(System.Double)">
             <summary>
@@ -241,9 +242,14 @@
             </summary>
         </member>
         <member name="M:NavajaValirya.formPrincipal.#ctor">
-            <summary>
-            Formulario principal de la aplicación NavajaValiria.
-            </summary>
+             <summary>
+             Formulario principal de la aplicación NavajaValiria.
+            <para>Aplicación que se compone de 4 aplicaciones independientes.</para>
+            <para>Aplicación 1 - Cambio de Divisa.</para>
+            <para>Apllicación 2 - Disposición de Efectivo.</para>
+            <para>Aplicación 3 - Frase palindrómica.</para>
+            <para>Aplicación 4 - Contador de Palabras.</para>
+             </summary>
         </member>
         <member name="M:NavajaValirya.formPrincipal.BCambioDivisa_Click(System.Object,System.EventArgs)">
             <summary>

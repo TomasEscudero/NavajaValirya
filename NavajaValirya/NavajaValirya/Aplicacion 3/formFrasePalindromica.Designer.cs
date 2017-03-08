@@ -35,7 +35,7 @@
             // 
             // BPalindromica
             // 
-            this.BPalindromica.Location = new System.Drawing.Point(130, 107);
+            this.BPalindromica.Location = new System.Drawing.Point(141, 86);
             this.BPalindromica.Name = "BPalindromica";
             this.BPalindromica.Size = new System.Drawing.Size(184, 45);
             this.BPalindromica.TabIndex = 0;
@@ -56,14 +56,14 @@
             // 
             this.TFrase.Location = new System.Drawing.Point(72, 26);
             this.TFrase.Name = "TFrase";
-            this.TFrase.Size = new System.Drawing.Size(379, 20);
+            this.TFrase.Size = new System.Drawing.Size(370, 20);
             this.TFrase.TabIndex = 2;
             // 
             // formFrasePalindromica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(461, 164);
+            this.ClientSize = new System.Drawing.Size(454, 161);
             this.Controls.Add(this.TFrase);
             this.Controls.Add(this.LFrase);
             this.Controls.Add(this.BPalindromica);

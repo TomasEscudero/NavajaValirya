@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formPrincipal));
             this.BCambioDivisa = new System.Windows.Forms.Button();
             this.BDisposicionEfectivo = new System.Windows.Forms.Button();
             this.BFrasePalindromica = new System.Windows.Forms.Button();
@@ -36,7 +37,7 @@
             // 
             // BCambioDivisa
             // 
-            this.BCambioDivisa.Location = new System.Drawing.Point(23, 32);
+            this.BCambioDivisa.Location = new System.Drawing.Point(12, 12);
             this.BCambioDivisa.Name = "BCambioDivisa";
             this.BCambioDivisa.Size = new System.Drawing.Size(148, 62);
             this.BCambioDivisa.TabIndex = 0;
@@ -46,7 +47,7 @@
             // 
             // BDisposicionEfectivo
             // 
-            this.BDisposicionEfectivo.Location = new System.Drawing.Point(23, 100);
+            this.BDisposicionEfectivo.Location = new System.Drawing.Point(394, 12);
             this.BDisposicionEfectivo.Name = "BDisposicionEfectivo";
             this.BDisposicionEfectivo.Size = new System.Drawing.Size(148, 62);
             this.BDisposicionEfectivo.TabIndex = 1;
@@ -56,7 +57,7 @@
             // 
             // BFrasePalindromica
             // 
-            this.BFrasePalindromica.Location = new System.Drawing.Point(23, 237);
+            this.BFrasePalindromica.Location = new System.Drawing.Point(12, 287);
             this.BFrasePalindromica.Name = "BFrasePalindromica";
             this.BFrasePalindromica.Size = new System.Drawing.Size(148, 62);
             this.BFrasePalindromica.TabIndex = 2;
@@ -66,7 +67,7 @@
             // 
             // BContadorPalabras
             // 
-            this.BContadorPalabras.Location = new System.Drawing.Point(23, 305);
+            this.BContadorPalabras.Location = new System.Drawing.Point(394, 288);
             this.BContadorPalabras.Name = "BContadorPalabras";
             this.BContadorPalabras.Size = new System.Drawing.Size(148, 61);
             this.BContadorPalabras.TabIndex = 3;
@@ -78,7 +79,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(204, 397);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(554, 361);
             this.Controls.Add(this.BContadorPalabras);
             this.Controls.Add(this.BFrasePalindromica);
             this.Controls.Add(this.BDisposicionEfectivo);

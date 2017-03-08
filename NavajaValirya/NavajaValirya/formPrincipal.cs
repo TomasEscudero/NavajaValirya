@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Namespace del proyecto NavajaValirya.
+/// </summary>
 namespace NavajaValirya
 {
     /// <summary>
@@ -17,6 +20,11 @@ namespace NavajaValirya
     {
         /// <summary>
         /// Formulario principal de la aplicación NavajaValiria.
+        ///<para>Aplicación que se compone de 4 aplicaciones independientes.</para>
+        ///<para>Aplicación 1 - Cambio de Divisa.</para>
+        ///<para>Apllicación 2 - Disposición de Efectivo.</para>
+        ///<para>Aplicación 3 - Frase palindrómica.</para>
+        ///<para>Aplicación 4 - Contador de Palabras.</para>
         /// </summary>
         public formPrincipal()
         {
@@ -30,6 +38,8 @@ namespace NavajaValirya
         /// <param name="e">Sin uso</param>
         private void BCambioDivisa_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Aplicación que realiza el cambio entre las divisas Euros y Pesetas y viceversa.");
+
             CambioDivisa.formCambioDivisa OCambioDivisa = new CambioDivisa.formCambioDivisa();
             OCambioDivisa.ShowDialog();
             
@@ -42,6 +52,8 @@ namespace NavajaValirya
         /// <param name="e">Sin uso</param>
         private void BDisposicionEfectivo_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Aplicación que indica la cantidad de billetes y monedas mínimos para la alcanzar la cantidad introducida.");
+
             DisposicionEfectivo.formDisposicionEfectivo ODisposicionEfectivo = new DisposicionEfectivo.formDisposicionEfectivo();
             ODisposicionEfectivo.ShowDialog();
         }
@@ -53,6 +65,8 @@ namespace NavajaValirya
         /// <param name="e">Sin uso</param>
         private void BFrasePalindromica_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Aplicación que analiza una frase y resuelve si es palindrómica o no.");
+
             FrasePalindromica.formFrasePalindromica OFrasePalindromica = new FrasePalindromica.formFrasePalindromica();
             OFrasePalindromica.ShowDialog();
         }
@@ -64,6 +78,8 @@ namespace NavajaValirya
         /// <param name="e">Sin uso</param>
         private void BContadorPalabras_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Aplicación que cuenta las diferentes palabras que hay en una frase y las muestra ordenadas alfabeticamente.");
+
             ContadorPalabras.formContadorPalabras OContadorPalabras = new ContadorPalabras.formContadorPalabras();
             OContadorPalabras.ShowDialog();
         }

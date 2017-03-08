@@ -30,6 +30,7 @@ namespace NavajaValirya.CambioDivisa
         /// <summary>
         /// Es la constante para realizar el cambio entre las divisas.
         /// </summary>
+        /// <value>1 Euro = 166.386 pesetas</value>
         const double kVALOR = 166.386;
 
         /// <summary>
@@ -110,7 +111,7 @@ namespace NavajaValirya.CambioDivisa
             }
             else
             {
-                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+                MessageBox.Show("No ha introducido un valor correcto, por favor, introduzca un número.");
             }                       
 
             
