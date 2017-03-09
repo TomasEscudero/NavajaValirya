@@ -37,6 +37,7 @@
             // 
             // BCambioDivisa
             // 
+            this.BCambioDivisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BCambioDivisa.Location = new System.Drawing.Point(12, 12);
             this.BCambioDivisa.Name = "BCambioDivisa";
             this.BCambioDivisa.Size = new System.Drawing.Size(148, 62);
@@ -47,6 +48,7 @@
             // 
             // BDisposicionEfectivo
             // 
+            this.BDisposicionEfectivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BDisposicionEfectivo.Location = new System.Drawing.Point(394, 12);
             this.BDisposicionEfectivo.Name = "BDisposicionEfectivo";
             this.BDisposicionEfectivo.Size = new System.Drawing.Size(148, 62);
@@ -57,6 +59,7 @@
             // 
             // BFrasePalindromica
             // 
+            this.BFrasePalindromica.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BFrasePalindromica.Location = new System.Drawing.Point(12, 287);
             this.BFrasePalindromica.Name = "BFrasePalindromica";
             this.BFrasePalindromica.Size = new System.Drawing.Size(148, 62);
@@ -67,6 +70,7 @@
             // 
             // BContadorPalabras
             // 
+            this.BContadorPalabras.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BContadorPalabras.Location = new System.Drawing.Point(394, 288);
             this.BContadorPalabras.Name = "BContadorPalabras";
             this.BContadorPalabras.Size = new System.Drawing.Size(148, 61);

@@ -34,14 +34,14 @@ namespace NavajaValirya.CambioDivisa
         const double kVALOR = 166.386;
 
         /// <summary>
-        /// Función cambioEuros.
+        /// Función cambiarEuros.
         /// <para>Realiza el cambio de Euros a Pesetas.</para>
         /// </summary>
         /// <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
         /// <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
         /// <value>El dinero cambiado a pesetas.</value>
-        private double cambioEuros(double cantidadEuros)
+        private double cambiarEuros(double cantidadEuros)
         {
             double resultadoCambio;
 
@@ -51,14 +51,14 @@ namespace NavajaValirya.CambioDivisa
         }
 
         /// <summary>
-        /// Función cambioPesetas.
+        /// Función cambiarPesetas.
         /// <para>Realiza el cambio de Pesetas a Euros.</para>
         /// </summary>
         /// <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
         /// <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
         /// <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
         /// <value>El dinero cambiado a euros.</value>
-        private double cambioPesetas(double cantidadPesetas)
+        private double cambiarPesetas(double cantidadPesetas)
         {
             double resultadoCambio;
 
@@ -68,7 +68,7 @@ namespace NavajaValirya.CambioDivisa
         }
 
         /// <summary>
-        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
+        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarEuros.
         /// </summary>
         /// <param name="sender">Lanza el evento el botón BCambioEuros</param>
         /// <param name="e">Sin uso</param>        
@@ -81,7 +81,7 @@ namespace NavajaValirya.CambioDivisa
 
             if (double.TryParse(TCantidad.Text, out cantidadPesetas))
             {
-                resultadoEuros = cambioEuros(cantidadPesetas);
+                resultadoEuros = cambiarEuros(cantidadPesetas);
                 MessageBox.Show("El cambio son: " + resultadoEuros + "€.");
             }
 
@@ -93,7 +93,7 @@ namespace NavajaValirya.CambioDivisa
         }
 
         /// <summary>
-        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioPesetas.
+        /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarPesetas.
         /// </summary>
         /// <param name="sender">Lanza el evento del botón BCambioEnPesetas</param>
         /// <param name="e">Sin uso</param>
@@ -106,9 +106,10 @@ namespace NavajaValirya.CambioDivisa
 
             if (double.TryParse(TCantidad.Text, out cantidadEuros))
             {
-                resultadoPesetas = cambioPesetas(cantidadEuros);
+                resultadoPesetas = cambiarPesetas(cantidadEuros);
                 MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
             }
+
             else
             {
                 MessageBox.Show("No ha introducido un valor correcto, por favor, introduzca un número.");

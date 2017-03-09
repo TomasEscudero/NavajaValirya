@@ -33,14 +33,14 @@ namespace NavajaValirya.DisposicionEfectivo
         }
 
         /// <summary>
-        /// Función disposicionEfectiva.
+        /// Función disponerEfectivo.
         /// <para>Devuelve la cantidad de billetes y monedas más efectiva.</para>
         /// </summary>
         /// <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere entregar de manera más efectiva.</param>
         /// <remarks>Siempre intentará entregar el mínimo número de billetes y monedas.</remarks>
         /// <returns name="disposicionFinal">Devuelve la <ref name="disposicionFinal"/>, que es el menor número de billetes y monedas posible.</returns>
         /// <value>Cantidad de billetes y monedas.</value>
-        private string disposicionEfectiva(int cantidadPesetas)
+        private string disponerEfectivo(int cantidadPesetas)
         {
             int cantidadEfectivo, billeteMoneda;
             string disposicionFinal;
@@ -151,7 +151,7 @@ namespace NavajaValirya.DisposicionEfectivo
         }
 
         /// <summary>
-        /// Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disposicionEfectiva en el label LDisposicion.
+        /// Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo en el label LDisposicion.
         /// </summary>
         /// <param name="sender">Lanza el evento el botón button_1</param>
         /// <param name="e">Sin uso</param>       
@@ -161,7 +161,7 @@ namespace NavajaValirya.DisposicionEfectivo
 
             if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
             {
-                LDisposicion.Text = disposicionEfectiva(cantidadEfectivo);                
+                LDisposicion.Text = disponerEfectivo(cantidadEfectivo);                
             }
 
             else

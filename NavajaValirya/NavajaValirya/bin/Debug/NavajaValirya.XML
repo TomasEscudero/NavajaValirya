@@ -21,9 +21,9 @@
             </summary>
             <value>1 Euro = 166.386 pesetas</value>
         </member>
-        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambioEuros(System.Double)">
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambiarEuros(System.Double)">
             <summary>
-            Función cambioEuros.
+            Función cambiarEuros.
             <para>Realiza el cambio de Euros a Pesetas.</para>
             </summary>
             <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
@@ -31,9 +31,9 @@
             <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
             <value>El dinero cambiado a pesetas.</value>
         </member>
-        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambioPesetas(System.Double)">
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambiarPesetas(System.Double)">
             <summary>
-            Función cambioPesetas.
+            Función cambiarPesetas.
             <para>Realiza el cambio de Pesetas a Euros.</para>
             </summary>
             <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
@@ -43,14 +43,14 @@
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnEuros_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioEuros.
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarEuros.
             </summary>
             <param name="sender">Lanza el evento el botón BCambioEuros</param>
             <param name="e">Sin uso</param>        
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnPesetas_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambioPesetas.
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarPesetas.
             </summary>
             <param name="sender">Lanza el evento del botón BCambioEnPesetas</param>
             <param name="e">Sin uso</param>
@@ -83,9 +83,9 @@
             Inicializa los componentes del Formulario DisposicionEfectivo.
             </summary>
         </member>
-        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.disposicionEfectiva(System.Int32)">
+        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.disponerEfectivo(System.Int32)">
             <summary>
-            Función disposicionEfectiva.
+            Función disponerEfectivo.
             <para>Devuelve la cantidad de billetes y monedas más efectiva.</para>
             </summary>
             <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere entregar de manera más efectiva.</param>
@@ -95,7 +95,7 @@
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disposicionEfectiva en el label LDisposicion.
+            Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo en el label LDisposicion.
             </summary>
             <param name="sender">Lanza el evento el botón button_1</param>
             <param name="e">Sin uso</param>       
