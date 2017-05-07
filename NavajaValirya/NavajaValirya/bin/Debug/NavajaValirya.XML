@@ -78,6 +78,22 @@
             el contenido de este método con el editor de código.
             </summary>
         </member>
+        <member name="T:NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 2 que corresponde a DisposicionEfectivo.
+            <para>Clase que devuelve el menor número de billetes y monedas posible.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica.disponerEfectivo(System.Int32)">
+            <summary>
+            Función disponerEfectivo.
+            <para>Devuelve la cantidad de billetes y monedas más efectiva.</para>
+            </summary>
+            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere entregar de manera más efectiva.</param>
+            <remarks>Siempre intentará entregar el mínimo número de billetes y monedas.</remarks>
+            <returns name="disposicionFinal">Devuelve la <ref name="disposicionFinal"/>, que es el menor número de billetes y monedas posible.</returns>
+            <value>Cantidad de billetes y monedas.</value>
+        </member>
         <member name="T:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo">
             <summary>
             Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
@@ -88,16 +104,6 @@
             <summary>
             Inicializa los componentes del Formulario DisposicionEfectivo.
             </summary>
-        </member>
-        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.disponerEfectivo(System.Int32)">
-            <summary>
-            Función disponerEfectivo.
-            <para>Devuelve la cantidad de billetes y monedas más efectiva.</para>
-            </summary>
-            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere entregar de manera más efectiva.</param>
-            <remarks>Siempre intentará entregar el mínimo número de billetes y monedas.</remarks>
-            <returns name="disposicionFinal">Devuelve la <ref name="disposicionFinal"/>, que es el menor número de billetes y monedas posible.</returns>
-            <value>Cantidad de billetes y monedas.</value>
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
