@@ -40,12 +40,12 @@ namespace NavajaValirya.DisposicionEfectivo
         private void BDisposicionEfectivo_Click(object sender, EventArgs e)
         {
             int cantidadEfectivo;
-            DisposicionEfectivoLogica disposicionEfectivo;
+            DisposicionEfectivoLogica OdisposicionEfectivo;
 
             if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
             {
-                disposicionEfectivo = new DisposicionEfectivoLogica();
-                LDisposicion.Text = disposicionEfectivo.disponerEfectivo(cantidadEfectivo);                
+                OdisposicionEfectivo = new DisposicionEfectivoLogica();
+                LDisposicion.Text = OdisposicionEfectivo.disponerEfectivo(cantidadEfectivo);                
             }
 
             else

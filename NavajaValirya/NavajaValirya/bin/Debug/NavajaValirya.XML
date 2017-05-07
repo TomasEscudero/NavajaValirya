@@ -140,16 +140,6 @@
             Inicializa los componentes del Formulario FrasePalindromica.
             </summary>
         </member>
-        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.esPalindromo(System.String)">
-            <summary>
-            Función esPalindromo.
-            <para>Analiza una frase y muestra si es palindrómica o no.</para>
-            </summary>
-            <param name="frase">El parámetro <paramref name="frase"/> es la secuencia de carácteres que se quiere analizar.</param>
-            <remarks>Se pueden introducir letras, números y demás carácteres.</remarks>
-            <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
-            <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
-        </member>
         <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.BPalindromica_Click(System.Object,System.EventArgs)">
             <summary>
             Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo.
@@ -173,6 +163,22 @@
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
+        </member>
+        <member name="T:NavajaValirya.FrasePalindromica.FrasePalindromicaLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 3 que corresponde a FrasePalindromica.
+            <para>Clase que analiza una frase y muestra si es palindrómica o no.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.FrasePalindromicaLogica.esPalindromo(System.String)">
+            <summary>
+            Función esPalindromo.
+            <para>Analiza una frase y muestra si es palindrómica o no.</para>
+            </summary>
+            <param name="frase">El parámetro <paramref name="frase"/> es la secuencia de carácteres que se quiere analizar.</param>
+            <remarks>Se pueden introducir letras, números y demás carácteres.</remarks>
+            <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
+            <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
         </member>
         <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
             <summary>
