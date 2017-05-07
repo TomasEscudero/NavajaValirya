@@ -83,6 +83,7 @@
       <DependentUpon>formFrasePalindromica.cs</DependentUpon>
     </Compile>
     <Compile Include="Aplicacion 3\FrasePalindromicaLogica.cs" />
+    <Compile Include="Aplicacion 4\ContadorPalabrasLogica.cs" />
     <Compile Include="Aplicacion 4\formContadorPalabras.cs">
       <SubType>Form</SubType>
     </Compile>

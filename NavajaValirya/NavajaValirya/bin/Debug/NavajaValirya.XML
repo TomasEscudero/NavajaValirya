@@ -180,18 +180,25 @@
             <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
             <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
         </member>
-        <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
+        <member name="T:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica">
             <summary>
-            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
+            Clase que ejecuta los métodos necesarios para la aplicación 4 que corresponde a ContadorPalabras.
             <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
             </summary>
         </member>
-        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">
+        <member name="F:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.palabrasOrdenadas">
             <summary>
-            Inicializa los componentes del Formulario ContadorPalabras.
+            Lista donde se añadirán las palabras.
+            <para>Lista donde se añadirán las diferentes palabras que aparecen en la frase ordenadas alfabeticamente.</para>
             </summary>
         </member>
-        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.leerPalabras(System.String)">
+        <member name="F:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.cantidadPalabras">
+            <summary>
+            Lista donde se añadirán las cantidades de cada palabra.
+            <para>Lista donde se añadirá las veces que aparece cada palabra, cada posición es la cantidad correpondiente a la palabra de la lista palabrasOrdenadas.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.leerPalabras(System.String)">
             <summary>
             Función leerPalabras.
             <para>Recorre la frase y cuando obtiene una palabra llama a la función añadirPalabraCantidad para insertarla en la lista de palabras/>.</para>
@@ -199,7 +206,7 @@
             <param name="frase">El parámetro <paramref name="frase"/> es el conjunto de caracteres introducidos mediante la caja de texto.</param>
             <remarks>Siempre que encuentre un espacio seleccionará una palabra.</remarks>        
         </member>
-        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.añadirPalabraCantidad(System.String,System.Collections.ArrayList,System.Collections.ArrayList)">
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.añadirPalabraCantidad(System.String,System.Collections.ArrayList,System.Collections.ArrayList)">
             <summary>
             Función añadirPalabrasCantidad.        
             <para>Añade la <paramref name="palabra"/> a la lista de palabras <ref name="palabrasOrdenadas"/> alfabeticamente y añade la cantidad de veces que aparece cada palabra en la lista de cantidades <ref name="cantidadPalabras"/>.</para>
@@ -209,7 +216,7 @@
             <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista donde se añade la catidad de veces que aparece cada palabra.</param>
             <remarks>Si la palabra no esta en la lista de palabras <paramref name="listaPalabras"/> la añade, pero si existe suma 1 en la posicion correspondiente de la lista de cantidades <paramref name="listaCantidad"/>.</remarks>        
         </member>
-        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.posicionPalabra(System.Collections.ArrayList,System.String)">
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.posicionPalabra(System.Collections.ArrayList,System.String)">
             <summary>
             Función posicionPalabra.
             <para>Compara las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la posición donde insertar el parámetro <paramref name="palabra"/> en la lista.</para>
@@ -220,7 +227,7 @@
             <returns name="posicion">Devuelve la posicion donde insertar la palabra en la lista de palabras <paramref name="listaPalabras"/>.</returns>
             <value>Posicion donde insertar la palabra en la lista de palabras.</value>
         </member>
-        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.mostrarPalabrasCantidades(System.Collections.ArrayList,System.Collections.ArrayList)">
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.mostrarPalabrasCantidades(System.Collections.ArrayList,System.Collections.ArrayList)">
             <summary>
             Función mostrarPalabrasCantidades.
             <para>Muestra las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la cantidad de cada una de ellas en la frase.</para>
@@ -229,6 +236,17 @@
             <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista de Cantidades que hay de cada palabra.</param>        
             <returns name="texto">Devuelve las palabras y las veces que aparecen en la frase.</returns>
             <value>Listado de palabras y las veces que aparecenen la frase.</value>
+        </member>
+        <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
+            <summary>
+            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
+            <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">
+            <summary>
+            Inicializa los componentes del Formulario ContadorPalabras.
+            </summary>
         </member>
         <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.BContadorPalabras_Click(System.Object,System.EventArgs)">
             <summary>
