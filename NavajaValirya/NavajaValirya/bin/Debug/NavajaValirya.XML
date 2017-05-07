@@ -4,6 +4,38 @@
         <name>NavajaValirya</name>
     </assembly>
     <members>
+        <member name="T:NavajaValirya.CambioDivisa.CambioDivisaLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 1 que corresponde a CambioDivisa.
+            <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
+            </summary>
+        </member>
+        <member name="F:NavajaValirya.CambioDivisa.CambioDivisaLogica.kVALOR">
+            <summary>
+            Es la constante para realizar el cambio entre las divisas.
+            </summary>
+            <value>1 Euro = 166.386 pesetas</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.CambioDivisaLogica.cambiarEuros(System.Double)">
+            <summary>
+            Función cambiarEuros.
+            <para>Realiza el cambio de Euros a Pesetas.</para>
+            </summary>
+            <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
+            <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
+            <value>El dinero cambiado a pesetas.</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.CambioDivisaLogica.cambiarPesetas(System.Double)">
+            <summary>
+            Función cambiarPesetas.
+            <para>Realiza el cambio de Pesetas a Euros.</para>
+            </summary>
+            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
+            <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
+            <value>El dinero cambiado a euros.</value>
+        </member>
         <member name="T:NavajaValirya.CambioDivisa.formCambioDivisa">
             <summary>
             Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa.
@@ -15,42 +47,16 @@
             Inicializa los componentes del Formulario CambioDivisa.
             </summary>
         </member>
-        <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.kVALOR">
-            <summary>
-            Es la constante para realizar el cambio entre las divisas.
-            </summary>
-            <value>1 Euro = 166.386 pesetas</value>
-        </member>
-        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambiarEuros(System.Double)">
-            <summary>
-            Función cambiarEuros.
-            <para>Realiza el cambio de Euros a Pesetas.</para>
-            </summary>
-            <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
-            <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
-            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
-            <value>El dinero cambiado a pesetas.</value>
-        </member>
-        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.cambiarPesetas(System.Double)">
-            <summary>
-            Función cambiarPesetas.
-            <para>Realiza el cambio de Pesetas a Euros.</para>
-            </summary>
-            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
-            <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
-            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
-            <value>El dinero cambiado a euros.</value>
-        </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnEuros_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarEuros.
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función estática cambiarEuros de la clase CambioDivisaLogica.
             </summary>
             <param name="sender">Lanza el evento el botón BCambioEuros</param>
             <param name="e">Sin uso</param>        
         </member>
         <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnPesetas_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y ejecuta la función cambiarPesetas.
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función estática cambiarPesetas de la clase CambioDivisaLogica.
             </summary>
             <param name="sender">Lanza el evento del botón BCambioEnPesetas</param>
             <param name="e">Sin uso</param>
