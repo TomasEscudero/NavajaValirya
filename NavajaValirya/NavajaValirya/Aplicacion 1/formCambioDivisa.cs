@@ -41,13 +41,21 @@ namespace NavajaValirya.CambioDivisa
 
         if (double.TryParse(TCantidad.Text, out cantidadPesetas))
         {
-            resultadoEuros = CambioDivisaLogica.cambiarEuros(cantidadPesetas);
-            MessageBox.Show("El cambio son: " + resultadoEuros + "€.");
+                if (cantidadPesetas > 0)
+                {
+                    resultadoEuros = CambioDivisaLogica.cambiarEuros(cantidadPesetas);
+                    MessageBox.Show("El cambio son: " + resultadoEuros + "€.");
+                }
+
+                else
+                {
+                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                }
         }
 
         else
         {
-            MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+            MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
         }
 
     }
@@ -66,9 +74,17 @@ namespace NavajaValirya.CambioDivisa
 
         if (double.TryParse(TCantidad.Text, out cantidadEuros))
         {
-            resultadoPesetas = CambioDivisaLogica.cambiarPesetas(cantidadEuros);
-            MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
-        }
+                if (cantidadEuros > 0)
+                {
+                    resultadoPesetas = CambioDivisaLogica.cambiarPesetas(cantidadEuros);
+                    MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
+                }
+
+                else
+                {
+                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                }
+            }
 
         else
         {

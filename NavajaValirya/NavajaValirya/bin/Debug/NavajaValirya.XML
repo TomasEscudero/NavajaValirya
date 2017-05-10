@@ -107,7 +107,7 @@
         </member>
         <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo en el label LDisposicion.
+            Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo de la Clase DisposicionEfectivoLogica en el label LDisposicion.
             </summary>
             <param name="sender">Lanza el evento el botón button_1</param>
             <param name="e">Sin uso</param>       
@@ -142,7 +142,7 @@
         </member>
         <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.BPalindromica_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo.
+            Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo de la Clase FrasePalindromicaLogica.
             </summary>
             <param name="sender">Lanza el evento del botón BPalindromica</param>
             <param name="e">Sin uso</param>
@@ -250,7 +250,7 @@
         </member>
         <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.BContadorPalabras_Click(System.Object,System.EventArgs)">
             <summary>
-            Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje.
+            Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje ambas contenidasen la Clase ContadorPalabrasLogica.
             </summary>
             <param name="sender">Lanza el evento el botón BContadorPalabras</param>
             <param name="e">Sin uso</param>   

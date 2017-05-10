@@ -61,7 +61,7 @@
             // 
             this.TFrase.BackColor = System.Drawing.SystemColors.MenuBar;
             this.TFrase.Location = new System.Drawing.Point(72, 26);
-            this.TFrase.MaxLength = 500;
+            this.TFrase.MaxLength = 100;
             this.TFrase.Name = "TFrase";
             this.TFrase.Size = new System.Drawing.Size(370, 20);
             this.TFrase.TabIndex = 2;

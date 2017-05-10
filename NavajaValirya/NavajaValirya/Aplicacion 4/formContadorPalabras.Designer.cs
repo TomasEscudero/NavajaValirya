@@ -58,7 +58,7 @@
             // TFrase
             // 
             this.TFrase.Location = new System.Drawing.Point(60, 29);
-            this.TFrase.MaxLength = 500;
+            this.TFrase.MaxLength = 100;
             this.TFrase.Name = "TFrase";
             this.TFrase.Size = new System.Drawing.Size(346, 20);
             this.TFrase.TabIndex = 2;

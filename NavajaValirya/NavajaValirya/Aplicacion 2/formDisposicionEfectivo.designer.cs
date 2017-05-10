@@ -49,6 +49,7 @@
             // TCantidad
             // 
             this.TCantidad.Location = new System.Drawing.Point(88, 22);
+            this.TCantidad.MaxLength = 9;
             this.TCantidad.Name = "TCantidad";
             this.TCantidad.Size = new System.Drawing.Size(197, 20);
             this.TCantidad.TabIndex = 1;

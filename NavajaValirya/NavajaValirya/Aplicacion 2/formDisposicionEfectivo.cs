@@ -33,7 +33,7 @@ namespace NavajaValirya.DisposicionEfectivo
         }
         
         /// <summary>
-        /// Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo en el label LDisposicion.
+        /// Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo de la Clase DisposicionEfectivoLogica en el label LDisposicion.
         /// </summary>
         /// <param name="sender">Lanza el evento el botón button_1</param>
         /// <param name="e">Sin uso</param>       
@@ -44,13 +44,21 @@ namespace NavajaValirya.DisposicionEfectivo
 
             if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
             {
-                OdisposicionEfectivo = new DisposicionEfectivoLogica();
-                LDisposicion.Text = OdisposicionEfectivo.disponerEfectivo(cantidadEfectivo);                
+                if (cantidadEfectivo > 0)
+                {
+                    OdisposicionEfectivo = new DisposicionEfectivoLogica();
+                    LDisposicion.Text = OdisposicionEfectivo.disponerEfectivo(cantidadEfectivo);
+                }
+
+                else
+                {
+                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                }
             }
 
             else
             {
-                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número.");
+                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
             }                 
         }
     }

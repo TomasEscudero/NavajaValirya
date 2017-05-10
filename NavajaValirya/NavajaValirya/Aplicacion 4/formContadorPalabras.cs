@@ -27,25 +27,33 @@ namespace NavajaValirya.ContadorPalabras
         {
             InitializeComponent();
         }
-        
+
         /// <summary>
-        /// Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje.
+        /// Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje ambas contenidasen la Clase ContadorPalabrasLogica.
         /// </summary>
         /// <param name="sender">Lanza el evento el botón BContadorPalabras</param>
         /// <param name="e">Sin uso</param>   
         private void BContadorPalabras_Click(object sender, EventArgs e)
         {
             string frase;
-            ContadorPalabrasLogica PalabrasContadas = new ContadorPalabrasLogica();
+            ContadorPalabrasLogica OPalabrasContadas = new ContadorPalabrasLogica();
 
             frase = TFrase.Text;
 
-            PalabrasContadas.leerPalabras(frase);
+            if (String.IsNullOrEmpty(frase))
+            {
+                MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
+            }
 
-            MessageBox.Show(PalabrasContadas.mostrarPalabrasCantidades(PalabrasContadas.palabrasOrdenadas, PalabrasContadas.cantidadPalabras));
+            else
+            {
+                OPalabrasContadas.leerPalabras(frase);
 
-            PalabrasContadas.palabrasOrdenadas.Clear();
-            PalabrasContadas.cantidadPalabras.Clear();
+                MessageBox.Show(OPalabrasContadas.mostrarPalabrasCantidades(OPalabrasContadas.palabrasOrdenadas, OPalabrasContadas.cantidadPalabras));
+            }            
+
+            OPalabrasContadas.palabrasOrdenadas.Clear();
+            OPalabrasContadas.cantidadPalabras.Clear();
         }
     }
 }

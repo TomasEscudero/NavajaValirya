@@ -64,7 +64,7 @@
             this.BFrasePalindromica.Name = "BFrasePalindromica";
             this.BFrasePalindromica.Size = new System.Drawing.Size(148, 62);
             this.BFrasePalindromica.TabIndex = 2;
-            this.BFrasePalindromica.Text = "Frase Palindrómca";
+            this.BFrasePalindromica.Text = "Frase Palindrómica";
             this.BFrasePalindromica.UseVisualStyleBackColor = true;
             this.BFrasePalindromica.Click += new System.EventHandler(this.BFrasePalindromica_Click);
             // 

@@ -28,7 +28,7 @@ namespace NavajaValirya.FrasePalindromica
         }
         
         /// <summary>
-        /// Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo.
+        /// Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo de la Clase FrasePalindromicaLogica.
         /// </summary>
         /// <param name="sender">Lanza el evento del botón BPalindromica</param>
         /// <param name="e">Sin uso</param>
@@ -38,16 +38,27 @@ namespace NavajaValirya.FrasePalindromica
             bool palindromo;
 
             frase = TFrase.Text;
-            palindromo = FrasePalindromicaLogica.esPalindromo(frase);
 
-            if (palindromo == true)
+            if (String.IsNullOrEmpty(frase))
             {
-                MessageBox.Show("La frase es PALINDRÓMICA");
+                MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
             }
             else
             {
-                MessageBox.Show("La frase NO es PALINDRÓMICA");
+                palindromo = FrasePalindromicaLogica.esPalindromo(frase);
+
+                if (palindromo == true)
+                {
+                    MessageBox.Show("La frase es PALINDRÓMICA");
+                }
+                else
+                {
+                    MessageBox.Show("La frase NO es PALINDRÓMICA");
+                }
             }
+                
+
+            
         }
     }
 }

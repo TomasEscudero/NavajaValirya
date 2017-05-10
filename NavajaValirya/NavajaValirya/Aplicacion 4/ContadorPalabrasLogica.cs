@@ -41,11 +41,12 @@ namespace NavajaValirya.ContadorPalabras
 
             palabra = "";
 
-            i = 0;
+            i = 0;           
 
             while (i <= frase.Length)
-            {
-                if (i == frase.Length || frase[i] == ' ')
+            {               
+                
+                if (i > 0 && (i == frase.Length || (frase[i] == ' ' && frase[i - 1] != ' ' && i != frase.Length -1)))
                 {
                     añadirPalabraCantidad(palabra, palabrasOrdenadas, cantidadPalabras);
                     palabra = "";
@@ -53,12 +54,16 @@ namespace NavajaValirya.ContadorPalabras
 
                 else
                 {
-                    palabra = palabra + frase[i];
+                    if (frase[i] != ' ')
+                    {
+                        palabra = palabra + frase[i];
+                    }
                 }
 
                 i++;
             }
         }
+    
 
         /// <summary>
         /// Función añadirPalabrasCantidad.        
@@ -90,9 +95,12 @@ namespace NavajaValirya.ContadorPalabras
 
                 else
                 {
-                    listaPalabras.Insert(posicion, palabra);
+                    if (palabra != "")
+                    {
+                        listaPalabras.Insert(posicion, palabra);
 
-                    listaCantidad.Insert(posicion, 1);
+                        listaCantidad.Insert(posicion, 1);
+                    }
                 }
 
             }

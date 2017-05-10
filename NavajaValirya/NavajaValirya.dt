@@ -1,59 +1,83 @@
 <?xml version="1.0" encoding="utf-16"?>
-<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT4H4M37.0700494S" SolutionTotalViewTime="PT5H57M22.4405712S" SolutionTotalDebugTime="PT58M54.6754673S">
+<DevTrackerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SolutionTotalEditTime="PT6H9M55.2551619S" SolutionTotalViewTime="PT7H29M50.4612151S" SolutionTotalDebugTime="PT1H23M25.6667318S">
   <FileVersion>
     <Major>1</Major>
     <Minor>0</Minor>
   </FileVersion>
   <SessionTimeList />
   <LastSessionTimeList>
-    <DevTrackerDataItem ViewActiveTime="PT27.3623671S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
+    <DevTrackerDataItem ViewActiveTime="PT25M23.1822158S" EditActiveTime="PT1H24.9408373S">
+      <ModifiedDate>2017-05-08T11:25:44.0609211+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 1\formCambioDivisa.cs</Item>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\ContadorPalabrasLogica.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-05-04T11:01:32.0183939+02:00</CreatedDate>
+      <CreatedDate>2017-05-08T08:51:16.0379853+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT10M49.4576068S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT2M48.6128883S" EditActiveTime="PT36M30.1021138S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
+      <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-05-04T10:33:46.4378106+02:00</CreatedDate>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2017-05-08T08:57:31.9923169+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1.8212916S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT58.2016735S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 2\formDisposicionEfectivo.cs</Item>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-05-04T11:01:59.3957725+02:00</CreatedDate>
+      <CreatedDate>2017-05-08T08:37:41.3739214+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1.2877843S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
+    <DevTrackerDataItem ViewActiveTime="PT1M5.3197407S" EditActiveTime="PT6M15.375614S">
+      <ModifiedDate>2017-05-08T08:57:19.1508213+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 3\formFrasePalindromica.cs</Item>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 4\formContadorPalabras.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-05-04T11:02:01.2456082+02:00</CreatedDate>
+      <CreatedDate>2017-05-08T08:39:27.8104402+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT9.0793297S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT44.534699S" EditActiveTime="PT1M19.685562S">
+      <ModifiedDate>2017-05-08T08:50:49.750426+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:38:05.8341857+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M20.7917675S" EditActiveTime="PT2M25.5098237S">
+      <ModifiedDate>2017-05-08T08:57:19.1039434+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:33:14.1945735+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M50.7912476S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
       <ViewedCount>1</ViewedCount>
-      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\formPrincipal.cs</Item>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\FrasePalindromicaLogica.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-05-04T11:01:22.9275578+02:00</CreatedDate>
+      <CreatedDate>2017-05-08T08:50:33.4297895+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
   </LastSessionTimeList>
@@ -68,14 +92,47 @@
       <CreatedDate>2017-03-05T10:10:21.6777084+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT58M54.6754673S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT3M29.3489262S" EditActiveTime="PT8M4.7676204S">
+      <ModifiedDate>2017-05-07T18:05:24.2438828+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\CambioDivisaLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T17:40:04.4788118+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT27M51.3261417S" EditActiveTime="PT1H11M41.9322957S">
+      <ModifiedDate>2017-05-08T11:25:44.0609211+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>2</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\ContadorPalabrasLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:58:03.5809333+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1H23M25.6667318S" EditActiveTime="PT36M30.1021138S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>4</ViewedCount>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>6</ViewedCount>
       <Item>Debug Mode</Item>
       <ItemType>DebugModeItem</ItemType>
       <ProjectName />
       <CreatedDate>2017-03-04T17:24:05.9368363+01:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M1.3797803S" EditActiveTime="PT3M34.7712788S">
+      <ModifiedDate>2017-05-07T18:29:04.1873992+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\DisposicionEfectivoLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:19:55.1538717+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT35M45.1251201S" EditActiveTime="PT37M48.906883S">
@@ -100,11 +157,11 @@
       <CreatedDate>2017-03-07T09:23:44.5003974+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT5M58.4425646S" EditActiveTime="PT5M8.3322203S">
-      <ModifiedDate>2017-03-09T18:23:13.3113965+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT26M52.9328782S" EditActiveTime="PT20M58.1014382S">
+      <ModifiedDate>2017-05-07T20:02:10.0403492+02:00</ModifiedDate>
       <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>5</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -121,10 +178,10 @@
       <CreatedDate>2017-03-04T17:38:03.0364141+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0425624S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.0705192S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.designer.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -141,10 +198,10 @@
       <CreatedDate>2017-03-04T17:38:03.0689098+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.023267S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.0708211S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.resx</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -173,11 +230,11 @@
       <CreatedDate>2017-03-07T09:27:01.4567802+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT41M13.4401051S" EditActiveTime="PT4M42.8517132S">
-      <ModifiedDate>2017-03-08T13:55:48.1317695+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT52M15.6596263S" EditActiveTime="PT17M54.5521662S">
+      <ModifiedDate>2017-05-08T08:57:19.1508213+02:00</ModifiedDate>
       <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>5</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -246,11 +303,11 @@
       <CreatedDate>2017-03-07T09:24:41.457921+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT11M52.4556732S" EditActiveTime="PT48.280897S">
-      <ModifiedDate>2017-03-09T18:24:09.6368548+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT19M6.2831571S" EditActiveTime="PT7M6.5654511S">
+      <ModifiedDate>2017-05-08T08:50:49.750426+02:00</ModifiedDate>
       <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>4</ViewedCount>
+      <EditedCount>4</EditedCount>
+      <ViewedCount>6</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -268,10 +325,10 @@
       <CreatedDate>2017-03-05T09:51:25.2605823+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0378506S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.0688462S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.designer.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -288,10 +345,10 @@
       <CreatedDate>2017-03-05T09:51:25.2280858+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0260457S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.0715502S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
+      <ViewedCount>2</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.resx</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -320,11 +377,11 @@
       <CreatedDate>2017-03-07T09:26:29.8141951+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT53M42.6842349S" EditActiveTime="PT1M26.0573796S">
-      <ModifiedDate>2017-03-08T13:55:48.0826872+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT1H5M53.1859831S" EditActiveTime="PT4M35.6079068S">
+      <ModifiedDate>2017-05-08T08:57:19.1039434+02:00</ModifiedDate>
       <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>5</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -412,11 +469,11 @@
       <CreatedDate>2017-03-07T09:23:34.6096333+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT7M55.8399602S" EditActiveTime="PT5M24.9933707S">
-      <ModifiedDate>2017-03-09T18:10:13.7926306+01:00</ModifiedDate>
+    <DevTrackerDataItem ViewActiveTime="PT10M4.2306819S" EditActiveTime="PT5M25.0364068S">
+      <ModifiedDate>2017-05-07T20:12:28.2505305+02:00</ModifiedDate>
       <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>2</EditedCount>
-      <ViewedCount>3</ViewedCount>
+      <EditedCount>3</EditedCount>
+      <ViewedCount>4</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -433,10 +490,10 @@
       <CreatedDate>2017-03-03T12:39:33.2630358+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.1110361S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.1495909S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.Designer.cs</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
@@ -453,14 +510,25 @@
       <CreatedDate>2017-03-03T12:39:28.4891331+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.124208S" EditActiveTime="PT0S">
+    <DevTrackerDataItem ViewActiveTime="PT0.1732381S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
-      <ViewedCount>2</ViewedCount>
+      <ViewedCount>3</ViewedCount>
       <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.resx</Item>
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
       <CreatedDate>2017-03-08T08:54:08.4897923+01:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT5M36.3355828S" EditActiveTime="PT3M27.3284508S">
+      <ModifiedDate>2017-05-07T18:51:56.3687099+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>2</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\FrasePalindromicaLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:44:32.7952709+02:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT12.5316559S" EditActiveTime="PT0S">
@@ -545,6 +613,249 @@
     </DevTrackerDataItem>
   </TotalTimeList>
   <HistoryTimeList>
+    <DevTrackerDataItem ViewActiveTime="PT2M48.6128883S" EditActiveTime="PT36M30.1021138S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2017-05-08T08:57:31.9923169+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT25M23.1682118S" EditActiveTime="PT1H24.9408373S">
+      <ModifiedDate>2017-05-08T11:25:44.0609211+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\ContadorPalabrasLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:51:16.0379853+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT4M50.7912476S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\FrasePalindromicaLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:50:33.4297895+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT1M5.3197407S" EditActiveTime="PT6M15.375614S">
+      <ModifiedDate>2017-05-08T08:57:19.1508213+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 4\formContadorPalabras.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:39:27.8104402+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT44.534699S" EditActiveTime="PT1M19.685562S">
+      <ModifiedDate>2017-05-08T08:50:49.750426+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:38:05.8341857+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT58.2016735S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:37:41.3739214+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M20.7917675S" EditActiveTime="PT2M25.5098237S">
+      <ModifiedDate>2017-05-08T08:57:19.1039434+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-08T08:33:14.1945735+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0385548S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.Designer.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:12:28.1474596+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0490301S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:12:28.0874209+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0279568S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.designer.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:02:09.9803914+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0475541S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:02:09.9218496+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0309956S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.designer.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:00:38.0906567+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT0.0455045S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.resx</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T20:00:38.0361454+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M28.1659372S" EditActiveTime="PT11M16.9914584S">
+      <ModifiedDate>2017-05-07T19:34:39.8807214+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\ContadorPalabrasLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:58:03.5809333+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT45.5443352S" EditActiveTime="PT3M27.3284508S">
+      <ModifiedDate>2017-05-07T18:51:56.3687099+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\FrasePalindromicaLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:44:32.7952709+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M1.3797803S" EditActiveTime="PT3M34.7712788S">
+      <ModifiedDate>2017-05-07T18:29:04.1873992+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\DisposicionEfectivoLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T18:19:55.1538717+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT3M29.3489262S" EditActiveTime="PT8M4.7676204S">
+      <ModifiedDate>2017-05-07T18:05:24.2438828+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\CambioDivisaLogica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T17:40:04.4788118+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT21M42.3783762S" EditActiveTime="PT0S">
+      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
+      <EditedCount>0</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>Debug Mode</Item>
+      <ItemType>DebugModeItem</ItemType>
+      <ProjectName />
+      <CreatedDate>2017-05-07T17:21:46.6739394+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT6M29.2927849S" EditActiveTime="PT4M58.5989921S">
+      <ModifiedDate>2017-05-07T20:00:38.1376909+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 2\formDisposicionEfectivo.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T16:45:41.7075419+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT2M8.3907217S" EditActiveTime="PT0.0430361S">
+      <ModifiedDate>2017-05-07T20:12:28.2505305+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\formPrincipal.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T16:45:40.920935+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT19M56.2886401S" EditActiveTime="PT15M49.7692179S">
+      <ModifiedDate>2017-05-07T20:02:10.0403492+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 1\formCambioDivisa.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T16:45:36.4898022+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT8M49.7199874S" EditActiveTime="PT44.0407035S">
+      <ModifiedDate>2017-05-07T18:55:04.4574708+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 3\formFrasePalindromica.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T16:45:30.5931877+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
+    <DevTrackerDataItem ViewActiveTime="PT9M56.8997805S" EditActiveTime="PT6M56.324839S">
+      <ModifiedDate>2017-05-07T19:35:40.9499493+02:00</ModifiedDate>
+      <ModifiedBy>Tomás</ModifiedBy>
+      <EditedCount>1</EditedCount>
+      <ViewedCount>1</ViewedCount>
+      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
+      <ItemType>ProjectItem</ItemType>
+      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
+      <CreatedDate>2017-05-07T16:41:00.8903847+02:00</CreatedDate>
+      <ViewedBy>Tomás</ViewedBy>
+    </DevTrackerDataItem>
     <DevTrackerDataItem ViewActiveTime="PT1.2877843S" EditActiveTime="PT0S">
       <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
       <EditedCount>0</EditedCount>
@@ -686,327 +997,6 @@
       <ItemType>ProjectItem</ItemType>
       <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
       <CreatedDate>2017-03-09T18:09:12.5563711+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT1M36.3585992S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>f:\daw\entornos de desarrollo\practicas\proyecto navaja valirya\navajavalirya\navajavalirya\aplicacion 2\formDisposicionEfectivo.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T14:22:19.2829046+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0425624S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T13:55:47.9233675+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.023267S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T13:55:47.8610522+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0378506S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T13:55:47.6010316+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0260457S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T13:55:47.5499752+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.1082984S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T09:13:15.5085544+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0817837S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T09:13:15.4551574+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.1083035S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T09:13:15.4083162+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0793141S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T09:13:15.3236054+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0795134S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:54:08.5668527+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0766744S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:54:08.4897923+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT47M54.7632485S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>Debug Mode</Item>
-      <ItemType>DebugModeItem</ItemType>
-      <ProjectName />
-      <CreatedDate>2017-03-08T08:42:42.1397835+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT24M35.8201504S" EditActiveTime="PT4M42.8517132S">
-      <ModifiedDate>2017-03-08T13:55:48.1317695+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:13:54.7087848+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT52M22.8336594S" EditActiveTime="PT1M26.0573796S">
-      <ModifiedDate>2017-03-08T13:55:48.0826872+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:13:52.6039584+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT9M18.7046593S" EditActiveTime="PT36.8023252S">
-      <ModifiedDate>2017-03-08T13:57:56.664401+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:13:51.1039169+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT6M24.9788752S" EditActiveTime="PT5M24.4876876S">
-      <ModifiedDate>2017-03-08T09:13:15.7782256+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:13:46.728848+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M28.1763904S" EditActiveTime="PT3M8.1831508S">
-      <ModifiedDate>2017-03-08T13:55:48.1796963+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:12:52.799383+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT30.3568457S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-08T08:09:52.7463034+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2.3906587S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:30:58.4075447+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4.5427243S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:30:53.8335635+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT8M6.1706191S" EditActiveTime="PT1M35.0151106S">
-      <ModifiedDate>2017-03-07T09:31:52.2909398+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:27:01.4567802+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M1.7815719S" EditActiveTime="PT1M6.2392501S">
-      <ModifiedDate>2017-03-07T09:31:52.3449522+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:26:29.8141951+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M25.2831693S" EditActiveTime="PT2M22.4477579S">
-      <ModifiedDate>2017-03-07T09:31:52.3937973+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 2\formDisposicionEfectivo.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:24:41.457921+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT2M19.7604085S" EditActiveTime="PT14.3846245S">
-      <ModifiedDate>2017-03-07T09:31:52.4601269+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 1\formCambioDivisa.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:23:44.5003974+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT28.7561314S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\formPrincipal.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>C:\Users\Tomás\Desktop\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-07T09:23:34.6096333+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0050055S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T17:02:40.8352177+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT4M25.7374338S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T17:02:40.7632355+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT33M40.2095594S" EditActiveTime="PT1H25M55.2342534S">
-      <ModifiedDate>2017-03-05T18:59:04.4654338+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 4\formContadorPalabras.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T16:54:50.9342673+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT0.0055041S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.resx</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T12:38:11.9395653+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT13.7132456S" EditActiveTime="PT0S">
-      <ModifiedDate>0001-01-01T00:00:00</ModifiedDate>
-      <EditedCount>0</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.Designer.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T12:38:11.9020384+01:00</CreatedDate>
-      <ViewedBy>Tomás</ViewedBy>
-    </DevTrackerDataItem>
-    <DevTrackerDataItem ViewActiveTime="PT25M4.0227368S" EditActiveTime="PT24M52.8399433S">
-      <ModifiedDate>2017-03-05T13:37:12.6187228+01:00</ModifiedDate>
-      <ModifiedBy>Tomás</ModifiedBy>
-      <EditedCount>1</EditedCount>
-      <ViewedCount>1</ViewedCount>
-      <Item>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\Aplicacion 3\formFrasePalindromica.cs</Item>
-      <ItemType>ProjectItem</ItemType>
-      <ProjectName>F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Navaja Suiza\Navaja Valirya\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\NavajaValirya.csproj</ProjectName>
-      <CreatedDate>2017-03-05T12:30:11.7023014+01:00</CreatedDate>
       <ViewedBy>Tomás</ViewedBy>
     </DevTrackerDataItem>
   </HistoryTimeList>
