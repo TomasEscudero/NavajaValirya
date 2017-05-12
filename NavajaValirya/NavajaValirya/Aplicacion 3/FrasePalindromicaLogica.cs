@@ -13,7 +13,7 @@ namespace NavajaValirya.FrasePalindromica
     /// Clase que ejecuta los métodos necesarios para la aplicación 3 que corresponde a FrasePalindromica.
     /// <para>Clase que analiza una frase y muestra si es palindrómica o no.</para>
     /// </summary>
-    class FrasePalindromicaLogica
+    public static class FrasePalindromicaLogica
     {
         /// <summary>
         /// Función esPalindromo.

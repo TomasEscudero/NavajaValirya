@@ -1,0 +1,8 @@
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\PruebasUnitariasNavajaValirya.dll
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\PruebasUnitariasNavajaValirya.pdb
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\NavajaValirya.exe
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\NavajaValirya.pdb
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\NavajaValirya.xml
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.csprojResolveAssemblyReference.cache
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.dll
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.pdb

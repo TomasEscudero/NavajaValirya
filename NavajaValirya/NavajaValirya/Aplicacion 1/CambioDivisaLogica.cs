@@ -13,7 +13,7 @@ namespace NavajaValirya.CambioDivisa
     /// Clase que ejecuta los métodos necesarios para la aplicación 1 que corresponde a CambioDivisa.
     /// <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
     /// </summary>
-    public class CambioDivisaLogica
+    public static class CambioDivisaLogica
     {
         /// <summary>
         /// Es la constante para realizar el cambio entre las divisas.

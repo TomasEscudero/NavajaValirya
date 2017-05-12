@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NavajaValirya</name>
+    </assembly>
+    <members>
+        <member name="T:NavajaValirya.CambioDivisa.CambioDivisaLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 1 que corresponde a CambioDivisa.
+            <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
+            </summary>
+        </member>
+        <member name="F:NavajaValirya.CambioDivisa.CambioDivisaLogica.kVALOR">
+            <summary>
+            Es la constante para realizar el cambio entre las divisas.
+            </summary>
+            <value>1 Euro = 166.386 pesetas</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.CambioDivisaLogica.cambiarEuros(System.Double)">
+            <summary>
+            Función cambiarEuros.
+            <para>Realiza el cambio de Euros a Pesetas.</para>
+            </summary>
+            <param name="cantidadEuros">El valor del parámetro <paramref name="cantidadEuros"/> es la cantidad de euros que se quiere cambiar a pesetas.</param>
+            <remarks>Se pueden introducir cantidades con céntimos de euro.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadEuros"/> cambiada en pesetas.</returns>
+            <value>El dinero cambiado a pesetas.</value>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.CambioDivisaLogica.cambiarPesetas(System.Double)">
+            <summary>
+            Función cambiarPesetas.
+            <para>Realiza el cambio de Pesetas a Euros.</para>
+            </summary>
+            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere cambiar a euros.</param>
+            <remarks>No se pueden introducir cantidades con decimales ya que las pesetas no tenían centimos.</remarks>
+            <returns name="resultadoCambio">Devuelve la <paramref name="cantidadPesetas"/> cambiada en euros.</returns>
+            <value>El dinero cambiado a euros.</value>
+        </member>
+        <member name="T:NavajaValirya.CambioDivisa.formCambioDivisa">
+            <summary>
+            Clase formulario que ejecuta la aplicación 1 que corresponde a CambioDivisa.
+            <para>Clase que realiza el cambio entre las divisas Euros y Pesetas y viceversa.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.#ctor">
+            <summary>
+            Inicializa los componentes del Formulario CambioDivisa.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnEuros_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función estática cambiarEuros de la clase CambioDivisaLogica.
+            </summary>
+            <param name="sender">Lanza el evento el botón BCambioEuros</param>
+            <param name="e">Sin uso</param>        
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.BCambioEnPesetas_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la cantidad de la caja de texto TCantidad y ejecuta la función estática cambiarPesetas de la clase CambioDivisaLogica.
+            </summary>
+            <param name="sender">Lanza el evento del botón BCambioEnPesetas</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="F:NavajaValirya.CambioDivisa.formCambioDivisa.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaValirya.CambioDivisa.formCambioDivisa.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 2 que corresponde a DisposicionEfectivo.
+            <para>Clase que devuelve el menor número de billetes y monedas posible.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica.disponerEfectivo(System.Int32)">
+            <summary>
+            Función disponerEfectivo.
+            <para>Devuelve la cantidad de billetes y monedas más efectiva.</para>
+            </summary>
+            <param name="cantidadPesetas">El valor del parámetro <paramref name="cantidadPesetas"/> es la cantidad de pesetas que se quiere entregar de manera más efectiva.</param>
+            <remarks>Siempre intentará entregar el mínimo número de billetes y monedas.</remarks>
+            <returns name="disposicionFinal">Devuelve la <ref name="disposicionFinal"/>, que es el menor número de billetes y monedas posible.</returns>
+            <value>Cantidad de billetes y monedas.</value>
+        </member>
+        <member name="T:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo">
+            <summary>
+            Clase formulario que ejecuta la aplicación 2 que corresponde a DisposicionEfectivo.
+            <para>Clase que devuelve la cantidad de billetes y monedas mínimos para la alcanzar la cantidad introducida.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.#ctor">
+            <summary>
+            Inicializa los componentes del Formulario DisposicionEfectivo.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la cantidad de la caja de texto TCantidad y muestra el resultado de la función disponerEfectivo de la Clase DisposicionEfectivoLogica en el label LDisposicion.
+            </summary>
+            <param name="sender">Lanza el evento el botón button_1</param>
+            <param name="e">Sin uso</param>       
+        </member>
+        <member name="F:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaValirya.DisposicionEfectivo.formDisposicionEfectivo.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:NavajaValirya.FrasePalindromica.formFrasePalindromica">
+            <summary>
+            Clase formulario que ejecuta la aplicación 3 que corresponde a FrasePalindromica.
+            <para>Clase que analiza una frase y resuelve si es palindrómica o no.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.#ctor">
+            <summary>
+            Inicializa los componentes del Formulario FrasePalindromica.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.BPalindromica_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la frase de la caja de texto TFrase y ejecuta la función esPalindromo de la Clase FrasePalindromicaLogica.
+            </summary>
+            <param name="sender">Lanza el evento del botón BPalindromica</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="F:NavajaValirya.FrasePalindromica.formFrasePalindromica.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.formFrasePalindromica.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NavajaValirya.FrasePalindromica.FrasePalindromicaLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 3 que corresponde a FrasePalindromica.
+            <para>Clase que analiza una frase y muestra si es palindrómica o no.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.FrasePalindromica.FrasePalindromicaLogica.esPalindromo(System.String)">
+            <summary>
+            Función esPalindromo.
+            <para>Analiza una frase y muestra si es palindrómica o no.</para>
+            </summary>
+            <param name="frase">El parámetro <paramref name="frase"/> es la secuencia de carácteres que se quiere analizar.</param>
+            <remarks>Se pueden introducir letras, números y demás carácteres.</remarks>
+            <returns name="palindromo">Devuelve el boleano <ref name="palindromo"/>.</returns>
+            <value><ref name="palindromo"/> toma el valor TRUE si la frase es palindromica o FALSE si no lo es.</value>
+        </member>
+        <member name="T:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica">
+            <summary>
+            Clase que ejecuta los métodos necesarios para la aplicación 4 que corresponde a ContadorPalabras.
+            <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
+            </summary>
+        </member>
+        <member name="F:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.palabrasOrdenadas">
+            <summary>
+            Lista donde se añadirán las palabras.
+            <para>Lista donde se añadirán las diferentes palabras que aparecen en la frase ordenadas alfabeticamente.</para>
+            </summary>
+        </member>
+        <member name="F:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.cantidadPalabras">
+            <summary>
+            Lista donde se añadirán las cantidades de cada palabra.
+            <para>Lista donde se añadirá las veces que aparece cada palabra, cada posición es la cantidad correpondiente a la palabra de la lista palabrasOrdenadas.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.leerPalabras(System.String)">
+            <summary>
+            Función leerPalabras.
+            <para>Recorre la frase y cuando obtiene una palabra llama a la función añadirPalabraCantidad para insertarla en la lista de palabras/>.</para>
+            </summary>
+            <param name="frase">El parámetro <paramref name="frase"/> es el conjunto de caracteres introducidos mediante la caja de texto.</param>
+            <remarks>Siempre que encuentre un espacio seleccionará una palabra.</remarks>        
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.añadirPalabraCantidad(System.String,System.Collections.ArrayList,System.Collections.ArrayList)">
+            <summary>
+            Función añadirPalabrasCantidad.        
+            <para>Añade la <paramref name="palabra"/> a la lista de palabras <ref name="palabrasOrdenadas"/> alfabeticamente y añade la cantidad de veces que aparece cada palabra en la lista de cantidades <ref name="cantidadPalabras"/>.</para>
+            </summary>
+            <param name="palabra">El parámetro <paramref name="palabra"/> es cada una de las palabras de la frase.</param>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista donde se añaden las diferentes palabras.</param>
+            <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista donde se añade la catidad de veces que aparece cada palabra.</param>
+            <remarks>Si la palabra no esta en la lista de palabras <paramref name="listaPalabras"/> la añade, pero si existe suma 1 en la posicion correspondiente de la lista de cantidades <paramref name="listaCantidad"/>.</remarks>        
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.posicionPalabra(System.Collections.ArrayList,System.String)">
+            <summary>
+            Función posicionPalabra.
+            <para>Compara las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la posición donde insertar el parámetro <paramref name="palabra"/> en la lista.</para>
+            </summary>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista de palabras donde busca el parámetro <paramref name="palabra"/>.</param>
+            <param name="palabra">El parámetro <paramref name="palabra"/> es lo que utiliza para comparar en la <paramref name="listaPalabras"/> e indicar la posición a insertar.</param>
+            <remarks>Si no hay palabras en la lista devolvera un 0.</remarks>
+            <returns name="posicion">Devuelve la posicion donde insertar la palabra en la lista de palabras <paramref name="listaPalabras"/>.</returns>
+            <value>Posicion donde insertar la palabra en la lista de palabras.</value>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.ContadorPalabrasLogica.mostrarPalabrasCantidades(System.Collections.ArrayList,System.Collections.ArrayList)">
+            <summary>
+            Función mostrarPalabrasCantidades.
+            <para>Muestra las palabras de la lista de palabras <paramref name="listaPalabras"/> e indica la cantidad de cada una de ellas en la frase.</para>
+            </summary>
+            <param name="listaPalabras">El parámetro <paramref name="listaPalabras"/> es la lista de palabras diferentes que hay en la frase.</param>
+            <param name="listaCantidad">El parámetro <paramref name="listaCantidad"/> es la lista de Cantidades que hay de cada palabra.</param>        
+            <returns name="texto">Devuelve las palabras y las veces que aparecen en la frase.</returns>
+            <value>Listado de palabras y las veces que aparecenen la frase.</value>
+        </member>
+        <member name="T:NavajaValirya.ContadorPalabras.formContadorPalabras">
+            <summary>
+            Clase formulario que ejecuta la aplicación 4 que corresponde a ContadorPalabras.
+            <para>Clase que cuenta las palabras diferentes que hay en una frase y las muestra ordenadas alfabeticamente.</para>
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.#ctor">
+            <summary>
+            Inicializa los componentes del Formulario ContadorPalabras.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.BContadorPalabras_Click(System.Object,System.EventArgs)">
+            <summary>
+            Lee la frase de la caja de texto TCantidad y muestra el resultado de la función mostrarPalabrasCantidades en un mensaje ambas contenidasen la Clase ContadorPalabrasLogica.
+            </summary>
+            <param name="sender">Lanza el evento el botón BContadorPalabras</param>
+            <param name="e">Sin uso</param>   
+        </member>
+        <member name="F:NavajaValirya.ContadorPalabras.formContadorPalabras.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:NavajaValirya.ContadorPalabras.formContadorPalabras.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:NavajaValirya.formPrincipal">
+            <summary>
+            Clase formulario que es el formulario principal de la aplicación NavajaValiria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.#ctor">
+             <summary>
+             Formulario principal de la aplicación NavajaValiria.
+            <para>Aplicación que se compone de 4 aplicaciones independientes.</para>
+            <para>Aplicación 1 - Cambio de Divisa.</para>
+            <para>Apllicación 2 - Disposición de Efectivo.</para>
+            <para>Aplicación 3 - Frase palindrómica.</para>
+            <para>Aplicación 4 - Contador de Palabras.</para>
+             </summary>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BCambioDivisa_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 1 CambioDivisa
+            </summary>
+            <param name="sender">Lanza el evento del botón BCambioDivisa</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BDisposicionEfectivo_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 2 DisposicionEfectivo
+            </summary>
+            <param name="sender">Lanza el evento del botón BDisposicionEfectivo</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BFrasePalindromica_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 3 FrasePalindromica
+            </summary>
+            <param name="sender">Lanza el evento del botón BFrasePalindromica</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.BContadorPalabras_Click(System.Object,System.EventArgs)">
+            <summary>
+            Llama a la Aplicación 4 ContadorPalabras
+            </summary>
+            <param name="sender">Lanza el evento del botón BContadorPalabras</param>
+            <param name="e">Sin uso</param>
+        </member>
+        <member name="F:NavajaValirya.formPrincipal.components">
+            <summary>
+            Variable del diseñador necesaria.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén usando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        </member>
+        <member name="M:NavajaValirya.formPrincipal.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido de este método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:NavajaValirya.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:NavajaValiryaDisposicioEfectivo.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:NavajaValiryaDisposicioEfectivo.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:NavajaValiryaDisposicioEfectivo.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
