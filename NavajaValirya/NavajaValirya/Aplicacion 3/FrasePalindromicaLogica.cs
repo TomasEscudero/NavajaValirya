@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Namespace de la Clase DisposicionEfectivoLogica del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.FrasePalindromica
 {
     /// <summary>

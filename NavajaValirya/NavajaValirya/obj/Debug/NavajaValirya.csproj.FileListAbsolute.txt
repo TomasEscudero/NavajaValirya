@@ -66,4 +66,6 @@ F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\Na
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.formPrincipal.resources
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.Properties.Resources.resources
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csproj.GenerateResource.Cache
-F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.csprojResolveAssemblyReference.cache
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\obj\Debug\NavajaValirya.CadenasTexto.resources
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe.CodeAnalysisLog.xml
+F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValirya\bin\Debug\NavajaValirya.exe.lastcodeanalysissucceeded

@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 
-/// <summary>
-/// Namespace de la Aplicación 4 del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.ContadorPalabras
 {
     /// <summary>

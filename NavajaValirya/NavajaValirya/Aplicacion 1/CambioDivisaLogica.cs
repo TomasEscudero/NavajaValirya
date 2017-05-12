@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// Namespace de la Clase CambioDivisaLogica del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.CambioDivisa
 {
     /// <summary>

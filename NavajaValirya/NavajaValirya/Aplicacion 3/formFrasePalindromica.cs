@@ -8,9 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Namespace de la Aplicación 3 del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.FrasePalindromica
 {
     /// <summary>

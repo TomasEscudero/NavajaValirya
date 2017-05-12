@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-/// <summary>
-/// Namespace de la Clase ContadorPalabrasLoica del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.ContadorPalabras
 {
     /// <summary>

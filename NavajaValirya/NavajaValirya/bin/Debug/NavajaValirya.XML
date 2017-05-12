@@ -272,6 +272,42 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:NavajaValirya.CadenasTexto">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.Euros">
+            <summary>
+              Busca una cadena traducida similar a &quot;€.&quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.Pesetas">
+            <summary>
+              Busca una cadena traducida similar a &quot;ptas.&quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.ResultadoCambio">
+            <summary>
+              Busca una cadena traducida similar a &quot;El cambio son: &quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.ValorIncorrectoCambioDivisa">
+            <summary>
+              Busca una cadena traducida similar a &quot;No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.&quot;.
+            </summary>
+        </member>
         <member name="T:NavajaValirya.formPrincipal">
             <summary>
             Clase formulario que es el formulario principal de la aplicación NavajaValiria.

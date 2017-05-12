@@ -8,9 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Namespace de la Aplicación 1 del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya.CambioDivisa
 {
     /// <summary>
@@ -44,18 +42,18 @@ namespace NavajaValirya.CambioDivisa
                 if (cantidadPesetas > 0)
                 {
                     resultadoEuros = CambioDivisaLogica.cambiarEuros(cantidadPesetas);
-                    MessageBox.Show("El cambio son: " + resultadoEuros + "€.");
+                    MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoEuros + CadenasTexto.Euros);
                 }
 
                 else
                 {
-                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                    MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
                 }
         }
 
         else
         {
-            MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
+            MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
         }
 
     }
@@ -77,21 +75,19 @@ namespace NavajaValirya.CambioDivisa
                 if (cantidadEuros > 0)
                 {
                     resultadoPesetas = CambioDivisaLogica.cambiarPesetas(cantidadEuros);
-                    MessageBox.Show("El cambio son: " + resultadoPesetas + "ptas.");
+                    MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoPesetas + CadenasTexto.Pesetas);
                 }
 
                 else
                 {
-                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                    MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
                 }
             }
 
         else
         {
-            MessageBox.Show("No ha introducido un valor correcto, por favor, introduzca un número.");
+            MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
         }
-
-
     }
     }
 }

@@ -8,9 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/// <summary>
-/// Namespace del proyecto NavajaValirya.
-/// </summary>
+
 namespace NavajaValirya
 {
     /// <summary>

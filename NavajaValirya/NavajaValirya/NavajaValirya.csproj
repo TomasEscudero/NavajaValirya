@@ -38,6 +38,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\NavajaValirya.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -90,6 +91,11 @@
     <Compile Include="Aplicacion 4\formContadorPalabras.Designer.cs">
       <DependentUpon>formContadorPalabras.cs</DependentUpon>
     </Compile>
+    <Compile Include="CadenasTexto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CadenasTexto.resx</DependentUpon>
+    </Compile>
     <Compile Include="formPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Aplicacion 4\formContadorPalabras.resx">
       <DependentUpon>formContadorPalabras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadenasTexto.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CadenasTexto.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="formPrincipal.resx">
       <DependentUpon>formPrincipal.cs</DependentUpon>
