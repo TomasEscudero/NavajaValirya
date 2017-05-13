@@ -6,5 +6,3 @@ F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\Pr
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.csprojResolveAssemblyReference.cache
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.dll
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\obj\Debug\PruebasUnitariasNavajaValirya.pdb
-F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\PruebasUnitariasNavajaValirya.dll.CodeAnalysisLog.xml
-F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\PruebasUnitariasNavajaValirya\bin\Debug\PruebasUnitariasNavajaValirya.dll.lastcodeanalysissucceeded

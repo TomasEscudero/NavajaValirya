@@ -288,9 +288,29 @@
               búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
             </summary>
         </member>
+        <member name="P:NavajaValirya.CadenasTexto.BCambiarEuros">
+            <summary>
+              Busca una cadena traducida similar a &quot;Cambia a €&quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.BCambiarPtas">
+            <summary>
+              Busca una cadena traducida similar a &quot;Cambia a Ptas.&quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.CambioDivisa">
+            <summary>
+              Busca una cadena traducida similar a &quot;Cambio de Divisa&quot;.
+            </summary>
+        </member>
         <member name="P:NavajaValirya.CadenasTexto.Euros">
             <summary>
               Busca una cadena traducida similar a &quot;€.&quot;.
+            </summary>
+        </member>
+        <member name="P:NavajaValirya.CadenasTexto.LCantidad">
+            <summary>
+              Busca una cadena traducida similar a &quot;Cantidad: &quot;.
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.Pesetas">

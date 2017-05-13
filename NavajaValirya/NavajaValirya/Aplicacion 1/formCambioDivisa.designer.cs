@@ -51,7 +51,7 @@
             this.LCantidad.Name = "LCantidad";
             this.LCantidad.Size = new System.Drawing.Size(70, 18);
             this.LCantidad.TabIndex = 1;
-            this.LCantidad.Text = "Cantidad:";
+            this.LCantidad.Text = CadenasTexto.LCantidad;
             // 
             // BCambioEnEuros
             // 
@@ -60,7 +60,7 @@
             this.BCambioEnEuros.Name = "BCambioEnEuros";
             this.BCambioEnEuros.Size = new System.Drawing.Size(144, 61);
             this.BCambioEnEuros.TabIndex = 2;
-            this.BCambioEnEuros.Text = "Cambia a €";
+            this.BCambioEnEuros.Text = CadenasTexto.BCambiarEuros;
             this.BCambioEnEuros.UseVisualStyleBackColor = true;
             this.BCambioEnEuros.Click += new System.EventHandler(this.BCambioEnEuros_Click);
             // 
@@ -71,7 +71,7 @@
             this.BCambioEnPesetas.Name = "BCambioEnPesetas";
             this.BCambioEnPesetas.Size = new System.Drawing.Size(139, 61);
             this.BCambioEnPesetas.TabIndex = 3;
-            this.BCambioEnPesetas.Text = "Cambia a ptas.";
+            this.BCambioEnPesetas.Text = CadenasTexto.BCambiarPtas;
             this.BCambioEnPesetas.UseVisualStyleBackColor = true;
             this.BCambioEnPesetas.Click += new System.EventHandler(this.BCambioEnPesetas_Click);
             // 
@@ -86,7 +86,7 @@
             this.Controls.Add(this.LCantidad);
             this.Controls.Add(this.TCantidad);
             this.Name = "formCambioDivisa";
-            this.Text = "Cambio de Divisa";
+            this.Text = CadenasTexto.CambioDivisa;
             this.ResumeLayout(false);
             this.PerformLayout();
 

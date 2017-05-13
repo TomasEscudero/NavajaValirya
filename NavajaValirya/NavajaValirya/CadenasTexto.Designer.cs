@@ -61,11 +61,47 @@ namespace NavajaValirya {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a &quot;Cambia a €&quot;.
+        /// </summary>
+        internal static string BCambiarEuros {
+            get {
+                return ResourceManager.GetString("BCambiarEuros", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &quot;Cambia a Ptas.&quot;.
+        /// </summary>
+        internal static string BCambiarPtas {
+            get {
+                return ResourceManager.GetString("BCambiarPtas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &quot;Cambio de Divisa&quot;.
+        /// </summary>
+        internal static string CambioDivisa {
+            get {
+                return ResourceManager.GetString("CambioDivisa", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a &quot;€.&quot;.
         /// </summary>
         internal static string Euros {
             get {
                 return ResourceManager.GetString("Euros", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &quot;Cantidad: &quot;.
+        /// </summary>
+        internal static string LCantidad {
+            get {
+                return ResourceManager.GetString("LCantidad", resourceCulture);
             }
         }
         
