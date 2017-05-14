@@ -52,13 +52,13 @@ namespace NavajaValirya.DisposicionEfectivo
 
                     else
                     {
-                        MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                        MessageBox.Show("No ha introducido un valor correcto, por favor, introduzca un número positivo mayor que 0.");
                     }
                 }
 
                 else
                 {
-                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
+                    MessageBox.Show("No ha introducido un valor correcto, por favor, introduzca un número positivo mayor que 0.");
                 }
             }
             catch (Exception ExDisposicionEfectivo)

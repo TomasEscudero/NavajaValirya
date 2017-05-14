@@ -74,10 +74,11 @@ namespace PruebasUnitariasNavajaValirya
                 //Escenario de Prueba
                 NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica OdisposicionEfectivo = new NavajaValirya.DisposicionEfectivo.DisposicionEfectivoLogica();
                 int cantidadPesetas = 18691;
-                string resultadoEsperado = "La disposición es: \nEntregar 1 billete/s de 10.000 pts.\n" +
+                string resultadoEsperado = "La disposición es: \n" +
+                                            "Entregar 1 billete/s de 10.000 pts.\n" +
                                             "Entregar 1 billete/s de 5.000 pts.\n" +
                                             "Entregar 1 billete/s de 2.000 pts.\n" +
-                                            "Entregar 1 billetea/s de 1.000 pts.\n" +
+                                            "Entregar 1 billete/s de 1.000 pts.\n" +
                                             "Entregar 1 moneda/s de 500 pts.\n" +
                                             "Entregar 1 moneda/s de 100 pts.\n" +
                                             "Entregar 1 moneda/s de 50 pts.\n" +
@@ -154,7 +155,7 @@ namespace PruebasUnitariasNavajaValirya
             {
                 //Escenario de Prueba
                 NavajaValirya.ContadorPalabras.ContadorPalabrasLogica OPalabrasContadas = new NavajaValirya.ContadorPalabras.ContadorPalabrasLogica();                
-                string frase = "   perro perro   perro  gato   gato oso   ";
+                string frase = "perro perro perro gato gato oso";
                 string resultadoEsperado = "El número de cada palabra diferente que hay en la frase es: \n" + "gato = 2\n" + "oso = 1\n" + "perro = 3\n";
                 string resultadoObtenido = "";
 

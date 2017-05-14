@@ -133,7 +133,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0..
+        ///   Busca una cadena traducida similar a No ha introducido un valor correcto, por favor, introduzca un número positivo mayor que 0..
         /// </summary>
         internal static string ValorIncorrectoCambioDivisa {
             get {

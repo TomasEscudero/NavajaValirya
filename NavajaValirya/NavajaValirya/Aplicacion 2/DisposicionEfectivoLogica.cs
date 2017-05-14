@@ -62,7 +62,7 @@ namespace NavajaValirya.DisposicionEfectivo
 
                 cantidadEfectivo = cantidadEfectivo % 1000;
 
-                disposicionFinal = disposicionFinal + "\n" + "Entregar " + billeteMoneda + " billetea/s de 1.000 pts.";
+                disposicionFinal = disposicionFinal + "\n" + "Entregar " + billeteMoneda + " billete/s de 1.000 pts.";
             }
 
             if (cantidadEfectivo >= 500)

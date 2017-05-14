@@ -150,7 +150,7 @@
     <comment>Primera parte del mensaje de salida</comment>
   </data>
   <data name="ValorIncorrectoCambioDivisa" xml:space="preserve">
-    <value>No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.</value>
+    <value>No ha introducido un valor correcto, por favor, introduzca un número positivo mayor que 0.</value>
     <comment>Mensaje de introducción incorrecta de datos</comment>
   </data>
 </root>
