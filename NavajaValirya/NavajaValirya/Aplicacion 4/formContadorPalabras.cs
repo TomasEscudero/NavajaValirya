@@ -38,20 +38,27 @@ namespace NavajaValirya.ContadorPalabras
 
             frase = TFrase.Text;
 
-            if (String.IsNullOrEmpty(frase))
+            try
             {
-                MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
+                if (String.IsNullOrEmpty(frase))
+                {
+                    MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
+                }
+
+                else
+                {
+                    OPalabrasContadas.leerPalabras(frase);
+
+                    MessageBox.Show(OPalabrasContadas.mostrarPalabrasCantidades(OPalabrasContadas.palabrasOrdenadas, OPalabrasContadas.cantidadPalabras));
+                }
+
+                OPalabrasContadas.palabrasOrdenadas.Clear();
+                OPalabrasContadas.cantidadPalabras.Clear();
             }
-
-            else
+            catch (Exception ExContadorPalabras)
             {
-                OPalabrasContadas.leerPalabras(frase);
-
-                MessageBox.Show(OPalabrasContadas.mostrarPalabrasCantidades(OPalabrasContadas.palabrasOrdenadas, OPalabrasContadas.cantidadPalabras));
-            }            
-
-            OPalabrasContadas.palabrasOrdenadas.Clear();
-            OPalabrasContadas.cantidadPalabras.Clear();
+                MessageBox.Show("Se ha producido un error:" + ExContadorPalabras.Message);
+            }
         }
     }
 }

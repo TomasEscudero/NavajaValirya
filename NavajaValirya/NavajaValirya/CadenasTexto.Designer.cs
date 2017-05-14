@@ -61,7 +61,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;Cambia a €&quot;.
+        ///   Busca una cadena traducida similar a Cambia a €.
         /// </summary>
         internal static string BCambiarEuros {
             get {
@@ -70,7 +70,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;Cambia a Ptas.&quot;.
+        ///   Busca una cadena traducida similar a Cambia a Ptas..
         /// </summary>
         internal static string BCambiarPtas {
             get {
@@ -79,7 +79,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;Cambio de Divisa&quot;.
+        ///   Busca una cadena traducida similar a Cambio de Divisa.
         /// </summary>
         internal static string CambioDivisa {
             get {
@@ -88,7 +88,16 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;€.&quot;.
+        ///   Busca una cadena traducida similar a Se ha producido un error: .
+        /// </summary>
+        internal static string ErrorException {
+            get {
+                return ResourceManager.GetString("ErrorException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a €..
         /// </summary>
         internal static string Euros {
             get {
@@ -97,7 +106,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;Cantidad: &quot;.
+        ///   Busca una cadena traducida similar a Cantidad: .
         /// </summary>
         internal static string LCantidad {
             get {
@@ -106,7 +115,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;ptas.&quot;.
+        ///   Busca una cadena traducida similar a ptas..
         /// </summary>
         internal static string Pesetas {
             get {
@@ -115,7 +124,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;El cambio son: &quot;.
+        ///   Busca una cadena traducida similar a El cambio son: .
         /// </summary>
         internal static string ResultadoCambio {
             get {
@@ -124,7 +133,7 @@ namespace NavajaValirya {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a &quot;No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.&quot;.
+        ///   Busca una cadena traducida similar a No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0..
         /// </summary>
         internal static string ValorIncorrectoCambioDivisa {
             get {

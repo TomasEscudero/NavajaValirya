@@ -36,27 +36,33 @@ namespace NavajaValirya.CambioDivisa
 
         cantidadPesetas = 0;
         resultadoEuros = 0;
-
-        if (double.TryParse(TCantidad.Text, out cantidadPesetas))
-        {
-                if (cantidadPesetas > 0)
+            try
+            {
+                if (double.TryParse(TCantidad.Text, out cantidadPesetas))
                 {
-                    resultadoEuros = CambioDivisaLogica.cambiarEuros(cantidadPesetas);
-                    MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoEuros + CadenasTexto.Euros);
+                    if (cantidadPesetas > 0)
+                    {
+                        resultadoEuros = CambioDivisaLogica.cambiarEuros(cantidadPesetas);
+                        MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoEuros + CadenasTexto.Euros);
+                    }
+
+                    else
+                    {
+                        MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
+                    }
                 }
 
                 else
                 {
                     MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
                 }
-        }
+            }
 
-        else
-        {
-            MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
+            catch (Exception ExCambioEnEuros)
+            {
+                MessageBox.Show(CadenasTexto.ErrorException + ExCambioEnEuros.Message);
+            }
         }
-
-    }
 
     /// <summary>
     /// Lee la cantidad de la caja de texto TCantidad y ejecuta la función estática cambiarPesetas de la clase CambioDivisaLogica.
@@ -69,13 +75,21 @@ namespace NavajaValirya.CambioDivisa
 
         cantidadEuros = 0;
         resultadoPesetas = 0;
-
-        if (double.TryParse(TCantidad.Text, out cantidadEuros))
-        {
-                if (cantidadEuros > 0)
+            try
+            {
+                if (double.TryParse(TCantidad.Text, out cantidadEuros))
                 {
-                    resultadoPesetas = CambioDivisaLogica.cambiarPesetas(cantidadEuros);
-                    MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoPesetas + CadenasTexto.Pesetas);
+                    if (cantidadEuros > 0)
+                    {
+                        resultadoPesetas = CambioDivisaLogica.cambiarPesetas(cantidadEuros);
+                        MessageBox.Show(CadenasTexto.ResultadoCambio + resultadoPesetas + CadenasTexto.Pesetas);
+                    }
+
+                    else
+                    {
+                        MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
+
+                    }
                 }
 
                 else
@@ -84,10 +98,10 @@ namespace NavajaValirya.CambioDivisa
                 }
             }
 
-        else
-        {
-            MessageBox.Show(CadenasTexto.ValorIncorrectoCambioDivisa);
+            catch (Exception ExCambioEnPesetas)
+            {
+                MessageBox.Show(CadenasTexto.ErrorException + ExCambioEnPesetas.Message);
+            }
         }
-    }
     }
 }

@@ -290,42 +290,42 @@
         </member>
         <member name="P:NavajaValirya.CadenasTexto.BCambiarEuros">
             <summary>
-              Busca una cadena traducida similar a &quot;Cambia a €&quot;.
+              Busca una cadena traducida similar a Cambia a €.
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.BCambiarPtas">
             <summary>
-              Busca una cadena traducida similar a &quot;Cambia a Ptas.&quot;.
+              Busca una cadena traducida similar a Cambia a Ptas..
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.CambioDivisa">
             <summary>
-              Busca una cadena traducida similar a &quot;Cambio de Divisa&quot;.
+              Busca una cadena traducida similar a Cambio de Divisa.
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.Euros">
             <summary>
-              Busca una cadena traducida similar a &quot;€.&quot;.
+              Busca una cadena traducida similar a €..
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.LCantidad">
             <summary>
-              Busca una cadena traducida similar a &quot;Cantidad: &quot;.
+              Busca una cadena traducida similar a Cantidad: .
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.Pesetas">
             <summary>
-              Busca una cadena traducida similar a &quot;ptas.&quot;.
+              Busca una cadena traducida similar a ptas..
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.ResultadoCambio">
             <summary>
-              Busca una cadena traducida similar a &quot;El cambio son: &quot;.
+              Busca una cadena traducida similar a El cambio son: .
             </summary>
         </member>
         <member name="P:NavajaValirya.CadenasTexto.ValorIncorrectoCambioDivisa">
             <summary>
-              Busca una cadena traducida similar a &quot;No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.&quot;.
+              Busca una cadena traducida similar a No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0..
             </summary>
         </member>
         <member name="T:NavajaValirya.formPrincipal">

@@ -37,26 +37,30 @@ namespace NavajaValirya.FrasePalindromica
 
             frase = TFrase.Text;
 
-            if (String.IsNullOrEmpty(frase))
+            try
             {
-                MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
-            }
-            else
-            {
-                palindromo = FrasePalindromicaLogica.esPalindromo(frase);
-
-                if (palindromo == true)
+                if (String.IsNullOrEmpty(frase))
                 {
-                    MessageBox.Show("La frase es PALINDRÓMICA");
+                    MessageBox.Show("La caja de texto está vacía, por favor, introduzca una frase.");
                 }
                 else
                 {
-                    MessageBox.Show("La frase NO es PALINDRÓMICA");
+                    palindromo = FrasePalindromicaLogica.esPalindromo(frase);
+
+                    if (palindromo == true)
+                    {
+                        MessageBox.Show("La frase es PALINDRÓMICA");
+                    }
+                    else
+                    {
+                        MessageBox.Show("La frase NO es PALINDRÓMICA");
+                    }
                 }
             }
-                
-
-            
+            catch (Exception ExFrasePalindromica)
+            {
+                MessageBox.Show("Se ha producido un error:" + ExFrasePalindromica.Message);
+            }
         }
     }
 }

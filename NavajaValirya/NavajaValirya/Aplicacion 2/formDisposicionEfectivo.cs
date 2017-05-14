@@ -40,24 +40,31 @@ namespace NavajaValirya.DisposicionEfectivo
             int cantidadEfectivo;
             DisposicionEfectivoLogica OdisposicionEfectivo;
 
-            if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
+            try
             {
-                if (cantidadEfectivo > 0)
+                if (int.TryParse(TCantidad.Text, out cantidadEfectivo))
                 {
-                    OdisposicionEfectivo = new DisposicionEfectivoLogica();
-                    LDisposicion.Text = OdisposicionEfectivo.disponerEfectivo(cantidadEfectivo);
+                    if (cantidadEfectivo > 0)
+                    {
+                        OdisposicionEfectivo = new DisposicionEfectivoLogica();
+                        LDisposicion.Text = OdisposicionEfectivo.disponerEfectivo(cantidadEfectivo);
+                    }
+
+                    else
+                    {
+                        MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                    }
                 }
 
                 else
                 {
-                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.");
+                    MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
                 }
             }
-
-            else
+            catch (Exception ExDisposicionEfectivo)
             {
-                MessageBox.Show("No ha introducido valor correcto, por favor, introduzca un número entero.");
-            }                 
+                MessageBox.Show("Se ha producido un error:" + ExDisposicionEfectivo.Message);
+            }
         }
     }
 }

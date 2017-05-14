@@ -118,35 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BCambiarEuros" xml:space="preserve">
-    <value>"Cambia a €"</value>
+    <value>Cambia a €</value>
     <comment>BCambioEnEuros.Text</comment>
   </data>
   <data name="BCambiarPtas" xml:space="preserve">
-    <value>"Cambia a Ptas."</value>
+    <value>Cambia a Ptas.</value>
     <comment>BCambioEnPesetas</comment>
   </data>
   <data name="CambioDivisa" xml:space="preserve">
-    <value>"Cambio de Divisa"</value>
+    <value>Cambio de Divisa</value>
     <comment>FormCambioDivisa.Text</comment>
   </data>
+  <data name="ErrorException" xml:space="preserve">
+    <value>Se ha producido un error: </value>
+    <comment>Error de Excepcción</comment>
+  </data>
   <data name="Euros" xml:space="preserve">
-    <value>"€."</value>
+    <value>€.</value>
     <comment>Simbolo € (segunda parte del mensaje de salida)</comment>
   </data>
   <data name="LCantidad" xml:space="preserve">
-    <value>"Cantidad: "</value>
+    <value>Cantidad: </value>
     <comment>LCantidad.Text</comment>
   </data>
   <data name="Pesetas" xml:space="preserve">
-    <value>"ptas."</value>
+    <value>ptas.</value>
     <comment>Abreviación de Pesetas (segunda parte del mensaje de salida)</comment>
   </data>
   <data name="ResultadoCambio" xml:space="preserve">
-    <value>"El cambio son: "</value>
+    <value>El cambio son: </value>
     <comment>Primera parte del mensaje de salida</comment>
   </data>
   <data name="ValorIncorrectoCambioDivisa" xml:space="preserve">
-    <value>"No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0."</value>
+    <value>No ha introducido valor correcto, por favor, introduzca un número positivo mayor que 0.</value>
     <comment>Mensaje de introducción incorrecta de datos</comment>
   </data>
 </root>
