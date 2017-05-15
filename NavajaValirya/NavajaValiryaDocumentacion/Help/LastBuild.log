@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\NavajaValiryaDocumentacion.shfbproj" started="15/05/2017 10:31:55">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.9.17.0" projectFile="F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\NavajaValiryaDocumentacion.shfbproj" started="15/05/2017 11:00:35">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -28,16 +28,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00,0100
+</plugIn>    Last step completed in 00:00:00,0161
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00,0020
+    Last step completed in 00:00:00,0030
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Compilaci&#162;n iniciada a las 15/05/2017 10:31:57.
+Compilaci&#162;n iniciada a las 15/05/2017 11:00:38.
 Proyecto &quot;F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\GenerateRefInfo.proj&quot; en nodo 1 (destinos predeterminados).
 PrepareForBuild:
   Creando directorio &quot;obj\Debug\&quot;.
@@ -57,13 +57,13 @@ Compilaci&#162;n del proyecto terminada &quot;F:\DAW\ENTORNOS DE DESARROLLO\Prac
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:02.20
-    Last step completed in 00:00:02,6647
+Tiempo transcurrido 00:00:01.94
+    Last step completed in 00:00:02,5127
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Compilaci&#162;n iniciada a las 15/05/2017 10:32:00.
+Compilaci&#162;n iniciada a las 15/05/2017 11:00:41.
 Proyecto &quot;F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
 TransformManifest:
   XslTransform (v2016.9.17.0)
@@ -83,12 +83,12 @@ Compilaci&#162;n del proyecto terminada &quot;F:\DAW\ENTORNOS DE DESARROLLO\Prac
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:01.37
-    Last step completed in 00:00:01,9850
+Tiempo transcurrido 00:00:01.15
+    Last step completed in 00:00:01,6794
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00,0250
+    Last step completed in 00:00:00,0230
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -103,28 +103,28 @@ Generating conceptual topic files
     F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Content\VersionHistory\VersionHistory.aml -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\ddueXml\da57766b-e54b-41a0-8910-47639ac46f9d.xml
     Parsing topic file &#39;F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Content\VersionHistory\v1.0.0.0.aml&#39;
     F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Content\VersionHistory\v1.0.0.0.aml -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\ddueXml\c0b1d81e-0756-4727-a1e8-b8efdbc8d17b.xml
-    Last step completed in 00:00:00,1466
+    Last step completed in 00:00:00,1501
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00,0224
+    Last step completed in 00:00:00,0197
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\icons\Help.png -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\icons\Help.png
-    Last step completed in 00:00:00,0290
+    Last step completed in 00:00:00,0271
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00,0020
+    Last step completed in 00:00:00,0010
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Compilaci&#162;n iniciada a las 15/05/2017 10:32:02.
+Compilaci&#162;n iniciada a las 15/05/2017 11:00:43.
 Proyecto &quot;F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
 GenerateIntermediateTOC:
   XslTransform (v2016.9.17.0)
@@ -135,14 +135,14 @@ Compilaci&#162;n del proyecto terminada &quot;F:\DAW\ENTORNOS DE DESARROLLO\Prac
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:00.43
+Tiempo transcurrido 00:00:00.32
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01,0338
+    Last step completed in 00:00:00,8463
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00,8096
+    Last step completed in 00:00:00,7929
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -150,12 +150,12 @@ F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\Na
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00,0160
+    Last step completed in 00:00:00,0181
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Compilaci&#162;n iniciada a las 15/05/2017 10:32:04.
+Compilaci&#162;n iniciada a las 15/05/2017 11:00:44.
 Proyecto &quot;F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
 BuildTopics:
   BuildAssembler (v2016.9.17.0)
@@ -172,12 +172,12 @@ Compilaci&#162;n del proyecto terminada &quot;F:\DAW\ENTORNOS DE DESARROLLO\Prac
 
 Compilaci&#162;n correcta.
 
-Tiempo transcurrido 00:00:24.51
-    Last step completed in 00:00:25,0139
+Tiempo transcurrido 00:00:29.13
+    Last step completed in 00:00:29,7185
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00,0060
+    Last step completed in 00:00:00,0210
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -193,7 +193,7 @@ Processed 60 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\NavajaValiryaDocumentacion.hhk
 Saving HTML Help 1 table of contents to F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\NavajaValiryaDocumentacion.hhc
-    Last step completed in 00:00:00,8951
+    Last step completed in 00:00:00,9020
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -259,7 +259,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; F:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\styles\branding.css
-    Last step completed in 00:00:01,7783
+    Last step completed in 00:00:01,5816
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -271,7 +271,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00,0140
+    Last step completed in 00:00:00,0120
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -300,19 +300,19 @@ Compiling HTML Help 1 file...
   
   
   
-  Created f:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\NavajaValiryaDocumentacion.chm, 126,848 bytes
+  Created f:\DAW\ENTORNOS DE DESARROLLO\Practicas\Proyecto Navaja Valirya\NavajaValirya\NavajaValiryaDocumentacion\Help\Working\Output\HtmlHelp1\NavajaValiryaDocumentacion.chm, 126,854 bytes
   
-  Compression decreased file by 413,434 bytes.
+  Compression decreased file by 413,428 bytes.
   
-    Last step completed in 00:00:02,9675
+    Last step completed in 00:00:02,6152
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00,1896
+    Last step completed in 00:00:00,1740
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 15/05/2017 10:32:34.  Total time: 00:00:39,4014
+Build completed successfully at 15/05/2017 11:01:19.  Total time: 00:00:43,9231
 
 </buildStep>
 </shfbBuild>
